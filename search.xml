@@ -808,17 +808,17 @@
 ]]></content>
   </entry>
   <entry>
-    <title>一家可能是最便宜的国外代理商</title>
-    <url>/2025/04/06/%E4%B8%80%E5%AE%B6%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E5%9B%BD%E5%A4%96%E4%BB%A3%E7%90%86%E5%95%86/</url>
-    <content><![CDATA[<p>&nbsp;一家可能是最便宜的国外代理商</p>
-<p><a href="https://proxy6.net/">https://proxy6.net/</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>一次性信用卡</title>
     <url>/2025/09/17/%E4%B8%80%E6%AC%A1%E6%80%A7%E4%BF%A1%E7%94%A8%E5%8D%A1/</url>
     <content><![CDATA[<p>&nbsp;一次性信用卡</p>
 <p><a href="https://zi0.shop/">https://zi0.shop</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一家可能是最便宜的国外代理商</title>
+    <url>/2025/04/06/%E4%B8%80%E5%AE%B6%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E5%9B%BD%E5%A4%96%E4%BB%A3%E7%90%86%E5%95%86/</url>
+    <content><![CDATA[<p>&nbsp;一家可能是最便宜的国外代理商</p>
+<p><a href="https://proxy6.net/">https://proxy6.net/</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -849,15 +849,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>一键DD WIN11的脚本</title>
-    <url>/2025/04/06/%E4%B8%80%E9%94%AEdd-win11%E7%9A%84%E8%84%9A%E6%9C%AC/</url>
-    <content><![CDATA[<p>一键DD WIN11的脚本</p>
-<p>&nbsp;wget –no-check-certificate -qO InstallNET.sh ‘<a href="https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh%E2%80%99">https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh’</a> &amp;&amp; chmod a+x InstallNET.sh</p>
-<p>&nbsp;</p>
-<p>bash InstallNET.sh -dd “<a href="https://dl.lamp.sh/vhd/en-us_win11_ltsc.xz%E2%80%9D">https://dl.lamp.sh/vhd/en-us_win11_ltsc.xz”</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>一键docker安卓与Windows</title>
     <url>/2025/05/30/%E4%B8%80%E9%94%AEdocker%E5%AE%89%E5%8D%93%E4%B8%8Ewindows/</url>
     <content><![CDATA[<p>&nbsp;一键docker安卓:</p>
@@ -873,6 +864,15 @@
 <p>docker run -dit –rm -p 8006:8006 –device&#x3D;&#x2F;dev&#x2F;kvm –device&#x3D;&#x2F;dev&#x2F;net&#x2F;tun –cap-add NET_ADMIN –stop-timeout 120 dockurr&#x2F;windows</p>
 <p>运行后<a href="http://localhost:8006访问">http://localhost:8006访问</a></p>
 <p>项目地址：<a href="https://github.com/dockur/windows">https://github.com/dockur/windows</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键DD WIN11的脚本</title>
+    <url>/2025/04/06/%E4%B8%80%E9%94%AEdd-win11%E7%9A%84%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>一键DD WIN11的脚本</p>
+<p>&nbsp;wget –no-check-certificate -qO InstallNET.sh ‘<a href="https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh%E2%80%99">https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh’</a> &amp;&amp; chmod a+x InstallNET.sh</p>
+<p>&nbsp;</p>
+<p>bash InstallNET.sh -dd “<a href="https://dl.lamp.sh/vhd/en-us_win11_ltsc.xz%E2%80%9D">https://dl.lamp.sh/vhd/en-us_win11_ltsc.xz”</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -1232,7 +1232,7 @@
     <url>/2025/07/18/%E8%AE%A9termux%E5%8F%8D%E5%90%91%E9%9A%A7%E9%81%93%E4%B8%8D%E4%B8%AD%E6%96%AD/</url>
     <content><![CDATA[<p>termux设置了反向隧道，让Windows连接termux，但有时隧道会正常，可以termux编辑<del>&#x2F;.bashrc或</del>&#x2F;.profile文件阻止其中断，比如编辑~&#x2F;.bashrc文件</p>
 <p>nano&nbsp; ~&#x2F;.bashrc 加入:</p>
-<p>pgrep autossh &gt; &#x2F;dev&#x2F;null || autossh -f -M 0 -N -R 2222:localhost:8022 <a href="mailto:&#x61;&#100;&#109;&#105;&#x6e;&#x69;&#115;&#x74;&#114;&#97;&#116;&#x6f;&#x72;&#x40;&#x31;&#x37;&#x32;&#46;&#50;&#53;&#x32;&#46;&#55;&#49;&#x2e;&#x31;&#x38;&#57;">administrator@172.252.71.189</a></p>
+<p>pgrep autossh &gt; &#x2F;dev&#x2F;null || autossh -f -M 0 -N -R 2222:localhost:8022 <a href="mailto:&#x61;&#100;&#109;&#105;&#110;&#105;&#x73;&#116;&#114;&#x61;&#x74;&#111;&#114;&#64;&#x31;&#x37;&#x32;&#46;&#50;&#x35;&#50;&#x2e;&#55;&#49;&#46;&#x31;&#56;&#x39;">administrator@172.252.71.189</a></p>
 <p>这里以IP为172.252.71.189的电脑为例，当然也可以设置termux开机自动启动sshd，在<del>&#x2F;.bashrc或</del>&#x2F;.profile文件里加入：<br>pgrep sshd &gt; &#x2F;dev&#x2F;null || sshd<br>然后在termux输入source ~&#x2F;.bashrc。<br>也可以设置电脑免密码连接termux，既设置遥控器</p>
 ]]></content>
   </entry>

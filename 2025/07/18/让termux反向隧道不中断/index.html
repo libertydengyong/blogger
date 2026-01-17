@@ -210,7 +210,7 @@
     
     <div class="post-body" itemprop="articleBody"><p>termux设置了反向隧道，让Windows连接termux，但有时隧道会正常，可以termux编辑<del>&#x2F;.bashrc或</del>&#x2F;.profile文件阻止其中断，比如编辑~&#x2F;.bashrc文件</p>
 <p>nano&nbsp; ~&#x2F;.bashrc 加入:</p>
-<p>pgrep autossh &gt; &#x2F;dev&#x2F;null || autossh -f -M 0 -N -R 2222:localhost:8022 <a href="mailto:&#x61;&#100;&#109;&#105;&#x6e;&#x69;&#115;&#x74;&#114;&#97;&#116;&#x6f;&#x72;&#x40;&#x31;&#x37;&#x32;&#46;&#50;&#53;&#x32;&#46;&#55;&#49;&#x2e;&#x31;&#x38;&#57;">administrator@172.252.71.189</a></p>
+<p>pgrep autossh &gt; &#x2F;dev&#x2F;null || autossh -f -M 0 -N -R 2222:localhost:8022 <a href="mailto:&#x61;&#100;&#109;&#105;&#110;&#105;&#x73;&#116;&#114;&#x61;&#x74;&#111;&#114;&#64;&#x31;&#x37;&#x32;&#46;&#50;&#x35;&#50;&#x2e;&#55;&#49;&#46;&#x31;&#56;&#x39;">administrator@172.252.71.189</a></p>
 <p>这里以IP为172.252.71.189的电脑为例，当然也可以设置termux开机自动启动sshd，在<del>&#x2F;.bashrc或</del>&#x2F;.profile文件里加入：<br>pgrep sshd &gt; &#x2F;dev&#x2F;null || sshd<br>然后在termux输入source ~&#x2F;.bashrc。<br>也可以设置电脑免密码连接termux，既设置遥控器</p>
 
     </div>
