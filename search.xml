@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title></title>
+    <url>/2026/01/17/Xray%20VLESS%20%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>一键:</p>
+<p>bash &lt;(curl -sL <a href="https://raw.githubusercontent.com/audsiui/xray-jb/main/main.sh">https://raw.githubusercontent.com/audsiui/xray-jb/main/main.sh</a> )</p>
+<p>来源：<br><a href="https://github.com/audsiui/xray-jb">https://github.com/audsiui/xray-jb</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Xray-VLESS-配置脚</title>
+    <url>/2026/01/17/Xray-VLESS-%E9%85%8D%E7%BD%AE%E8%84%9A/</url>
+    <content><![CDATA[<p>一键:</p>
+<p>bash &lt;(curl -sL <a href="https://raw.githubusercontent.com/audsiui/xray-jb/main/main.sh">https://raw.githubusercontent.com/audsiui/xray-jb/main/main.sh</a> )</p>
+<p>来源：<br><a href="https://github.com/audsiui/xray-jb">https://github.com/audsiui/xray-jb</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Xray VLESS 配置脚本</title>
+    <url>/2026/01/17/Xray-VLESS-%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC-1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Xray VLESS 配置脚本</title>
+    <url>/2026/01/17/Xray-VLESS-%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC-2/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Xray VLESS 配置脚本</title>
+    <url>/2026/01/17/Xray-VLESS-%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC-3/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Xray VLESS 配置脚本</title>
+    <url>/2026/01/17/Xray-VLESS-%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Aeroshell 智能终端</title>
+    <url>/2025/10/30/aeroshell-%E6%99%BA%E8%83%BD%E7%BB%88%E7%AB%AF/</url>
+    <content><![CDATA[<p>&nbsp;Aeroshell 智能终端</p>
+<p><a href="https://termdev.com/">https://termdev.com/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>alpine 一键V2脚本</title>
+    <url>/2025/07/01/alpine-%E4%B8%80%E9%94%AEv2%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>alpine 一键V2脚本</p>
+<p>$ curl -O <a href="https://raw.githubusercontent.com/v2fly/alpinelinux-install-v2ray/master/install-release.sh">https://raw.githubusercontent.com/v2fly/alpinelinux-install-v2ray/master/install-release.sh</a></p>
+<h1 id="ash-安装-release-sh"><a href="#ash-安装-release-sh" class="headerlink" title="ash 安装-release.sh"></a>ash 安装-release.sh</h1><p>启用</p>
+<h1 id="rc-update-添加-v2ray"><a href="#rc-update-添加-v2ray" class="headerlink" title="rc-update 添加 v2ray"></a>rc-update 添加 v2ray</h1><p>取消</p>
+<h1 id="rc-update-del-v2ray"><a href="#rc-update-del-v2ray" class="headerlink" title="rc-update del v2ray"></a>rc-update del v2ray</h1><p>启动</p>
+<h1 id="rc-service-v2ray-启动"><a href="#rc-service-v2ray-启动" class="headerlink" title="rc-service v2ray 启动"></a>rc-service v2ray 启动</h1><p>关闭</p>
+<h1 id="rc-service-v2ray-停止"><a href="#rc-service-v2ray-停止" class="headerlink" title="rc-service v2ray 停止"></a>rc-service v2ray 停止</h1><p>重新启动</p>
+<p>#&nbsp; rc-service v2ray restart</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Alpine 开启bbr</title>
+    <url>/2025/07/12/alpine-%E5%BC%80%E5%90%AFbbr/</url>
+    <content><![CDATA[<p>Alpine 开启bbr:</p>
+<p>echo “tcp_bbr” &gt;&gt; &#x2F;etc&#x2F;modules &amp;&amp; modprobe tcp_bbr</p>
+<p>echo “net.ipv4.tcp_congestion_control&#x3D;bbr” &gt;&gt; &#x2F;etc&#x2F;sysctl.conf</p>
+<p>echo “net.core.default_qdisc&#x3D;fq” &gt;&gt; &#x2F;etc&#x2F;sysctl.conf</p>
+<p>sysctl -p</p>
+<p>验证&nbsp; &nbsp; lsmod | grep bbr</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>alpine一键安装xui面板</title>
+    <url>/2025/06/26/alpine%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85xui%E9%9D%A2%E6%9D%BF/</url>
+    <content><![CDATA[<p>alpine一键安装xui面板</p>
+<p>apk add curl&amp;&amp;apk add bash &amp;&amp; bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/Lynn-Becky/Alpine-x-ui/main/alpine-xui.sh">https://raw.githubusercontent.com/Lynn-Becky/Alpine-x-ui/main/alpine-xui.sh</a>)</p>
+<p>以IP:9000访问</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Alpine安装wordpress</title>
+    <url>/2026/01/12/alpine%E5%AE%89%E8%A3%85wordpress/</url>
+    <content><![CDATA[<p>安装Docker:</p>
+<p>apk add docker</p>
+<p>rc-update add docker</p>
+<p>service docker start</p>
+<p>拉取 WordPress 官方镜像:docker pull mysql</p>
+<p>启动 MySQL :docker run –name mysql -e MYSQL_ROOT_PASSWORD&#x3D;root -e MYSQL_DATABASE&#x3D;wordpress -d mysql</p>
+<p>启动 WordPress :docker run –name wordpress -p 8080:80 -e WORDPRESS_DB_HOST&#x3D;mysql:3306 -e WORDPRESS_DB_USER&#x3D;root -e WORDPRESS_DB_PASSWORD&#x3D;root -e WORDPRESS_DB_NAME&#x3D;wordpress --link mysql:mysql -d wordpress<br>访问wordpress&nbsp; &nbsp; &nbsp;IP:8080</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Alpine官方 GitHub 版本</title>
+    <url>/2025/07/20/alpine%E5%AE%98%E6%96%B9-github-%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<p>Alpine官方 GitHub 版本,包含所有模块和参数支持：</p>
+<p>wget <a href="https://github.com/SagerNet/sing-box/releases/download/v1.11.13/sing-box-1.11.13-linux-amd64.tar.gz">https://github.com/SagerNet/sing-box/releases/download/v1.11.13/sing-box-1.11.13-linux-amd64.tar.gz</a></p>
+<p>tar -xzf sing-box-1.11.13-linux-amd64.tar.gz</p>
+<p>mv sing-box-1.11.13-linux-amd64&#x2F;sing-box &#x2F;usr&#x2F;local&#x2F;bin&#x2F;sing-box</p>
+<p>chmod +x &#x2F;usr&#x2F;local&#x2F;bin&#x2F;sing-box</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>alpine无域名一键反代</title>
+    <url>/2025/07/19/alpine%E6%97%A0%E5%9F%9F%E5%90%8D%E4%B8%80%E9%94%AE%E5%8F%8D%E4%BB%A3/</url>
+    <content><![CDATA[<p>&nbsp;alpine无域名一键反代</p>
+<p>一个速度快的vps给速度慢的vps提速可以一键反代Nginx提速</p>
+<p>在速度快的vps安装一键代码:</p>
+<p>export PATH&#x3D;$PATH:&#x2F;sbin:&#x2F;usr&#x2F;sbin:&#x2F;bin:&#x2F;usr&#x2F;bin &amp;&amp; apk update &amp;&amp; apk add –no-cache nginx curl openrc &amp;&amp; addgroup -S nginx &amp;&amp; adduser -S -D -H -s &#x2F;sbin&#x2F;nologin -G nginx nginx &amp;&amp; mkdir -p &#x2F;run&#x2F;openrc &#x2F;run&#x2F;nginx &#x2F;etc&#x2F;nginx&#x2F;conf.d &amp;&amp; touch &#x2F;run&#x2F;openrc&#x2F;softlevel &amp;&amp; chown -R nginx:nginx &#x2F;run&#x2F;nginx &amp;&amp; IP&#x3D;”速度慢的vps的IP” &amp;&amp; PATH&#x3D;”&#x2F;vless” &amp;&amp; PORT&#x3D;”80” &amp;&amp; printf “server {\n    listen $PORT;\n    server_name _;\n    location $PATH {\n        proxy_pass http:&#x2F;&#x2F;$IP:10000;\n        proxy_http_version 1.1;\n        proxy_set_header Upgrade $http_upgrade;\n        proxy_set_header Connection &quot;upgrade&quot;;\n        proxy_set_header Host $host;\n    }\n}” &gt; &#x2F;etc&#x2F;nginx&#x2F;conf.d&#x2F;vless.conf &amp;&amp; sed -i ‘&#x2F;http {&#x2F;a \tinclude &#x2F;etc&#x2F;nginx&#x2F;conf.d&#x2F;*.conf;’ &#x2F;etc&#x2F;nginx&#x2F;nginx.conf &amp;&amp; nginx -t &amp;&amp; &#x2F;usr&#x2F;sbin&#x2F;nginx</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>alpine版3x-ui</title>
+    <url>/2025/07/03/alpine%E7%89%883x-ui/</url>
+    <content><![CDATA[<p>alpine版3x-ui:</p>
+<p>apk add bash wget</p>
+<p>wget <a href="https://github.com/aaalpineee/3x-ui/raw/refs/heads/main/install.sh">https://github.com/aaalpineee/3x-ui/raw/refs/heads/main/install.sh</a></p>
+<p>bash install.sh</p>
+<p>或</p>
+<p>wget <a href="https://raw.githubusercontent.com/miku111/XrayOnAlpine/main/install-release.sh">https://raw.githubusercontent.com/miku111/XrayOnAlpine/main/install-release.sh</a> &amp;&amp; bash install-release.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>BBRplus与其他加速方式安装</title>
+    <url>/2025/05/06/bbrplus%E4%B8%8E%E5%85%B6%E4%BB%96%E5%8A%A0%E9%80%9F%E6%96%B9%E5%BC%8F%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>wget -N –no-check-certificate “<a href="https://gist.github.com/zeruns/a0ec603f20d1b86de6a774a8ba27588f/raw/4f9957ae23f5efb2bb7c57a198ae2cffebfb1c56/tcp.sh">https://gist.github.com/zeruns/a0ec603f20d1b86de6a774a8ba27588f/raw/4f9957ae23f5efb2bb7c57a198ae2cffebfb1c56/tcp.sh</a>“ &amp;&amp; chmod +x tcp.sh &amp;&amp; .&#x2F;tcp.sh</p>
+<p>重新启动</p>
+<p>随之&nbsp;.&#x2F;tcp.sh</p>
+<p>检测是否在运行，输入:&nbsp; &nbsp; lsmod | grep bbr</p>
+<p>或&nbsp; &nbsp;sysctl net.ipv4.tcp_congestion_control</p>
+<p>如果都有bbrplus ，则表明bbrplus在运行。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Bin456789脚本Win11</title>
+    <url>/2025/08/29/bin456789%E8%84%9A%E6%9C%ACwin11/</url>
+    <content><![CDATA[<p>Bin456789脚本Win11:</p>
+<p>安装:</p>
+<p>curl -O <a href="https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh">https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh</a> || wget -O reinstall.sh $_</p>
+<p>运行:</p>
+<p>bash reinstall.sh windows \</p>
+<p>&nbsp; &nbsp; &nbsp;–image-name “Windows 11 Consumer 24H2” \</p>
+<p>&nbsp; &nbsp; &nbsp;–iso “<a href="https://www.microsoft.com/zh-cn/software-download/windows11(%E6%89%8B%E5%8A%A8%E9%80%89%E6%8B%A9%E5%90%8E%E7%B2%98%E8%B4%B4)">https://www.microsoft.com/zh-cn/software-download/windows11(手动选择后粘贴)</a>“</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>css的方式一行代码给wordpress添加面包屑导航</title>
+    <url>/2025/06/08/css%E7%9A%84%E6%96%B9%E5%BC%8F%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E7%BB%99wordpress%E6%B7%BB%E5%8A%A0%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA/</url>
+    <content><![CDATA[<p>&nbsp;css的方式一行代码给wordpress添加面包屑导航:</p>
+<p>给wordpress的head文件添加:</p>
+<p>&lt;div class&#x3D;”my-custom-breadcrumbs”&gt;&lt;a href&#x3D;”&#x2F;“ title&#x3D;”Home”&gt;首页&lt;&#x2F;a&gt; | &lt;?php the_category(“,”); ?&gt; | &lt;span class&#x3D;”current-post-title”&gt;&lt;?php the_title(); ?&gt;&lt;&#x2F;span&gt;&lt;&#x2F;div&gt;</p>
+<p>接下来，登录WordPress后台，导航到外观 &gt; 习惯。点击额外CSS（附加CSS），在文本框中添加以下 CSS 代码：</p>
+<p>&#x2F;*</p>
+<p>&nbsp;* 面包屑导航样式</p>
+<p>&nbsp;* 确保在手机上显示并统一颜色</p>
+<p>&nbsp;*&#x2F;</p>
+<p>&#x2F;* 定义一个变量来存储链接的蓝色，方便统一管理。</p>
+<p>&nbsp; &nbsp;你可以通过检查你网站其他链接的颜色来找到这个蓝色值。 *&#x2F;</p>
+<p>:root {</p>
+<p>&nbsp; &nbsp; –my-link-blue: #007bff; &#x2F;* 这是一个常见的蓝色，请根据你网站的实际链接颜色调整 *&#x2F;</p>
+<p>}</p>
+<p>&#x2F;* 针对手机屏幕的媒体查询：确保面包屑显示 *&#x2F;</p>
+<p>@media screen and (max-width: 768px) { &#x2F;* 768px 是一个常见的手机&#x2F;平板断点，可根据需要调整 *&#x2F;</p>
+<p>&nbsp; &nbsp; .my-custom-breadcrumbs { &#x2F;* 定位到我们的面包屑容器 *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; display: block !important; &#x2F;* 强制显示为块级元素 *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; visibility: visible !important; &#x2F;* 强制可见 *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &#x2F;* 以下是可选的样式调整，让它在手机上看起来更好： *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; text-align: left; &#x2F;* 左对齐 *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; padding: 10px 15px; &#x2F;* 添加内边距 *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; font-size: 0.9em; &#x2F;* 调整字体大小，使其在小屏幕上更紧凑 *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; overflow-x: auto; &#x2F;* 如果面包屑内容过长，允许水平滚动 *&#x2F;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; white-space: nowrap; &#x2F;* 防止面包屑在小屏幕上换行，保持单行显示 *&#x2F;</p>
+<p>&nbsp; &nbsp; }</p>
+<p>&nbsp; &nbsp; &#x2F;* 确保内部元素在行内显示 *&#x2F;</p>
+<p>&nbsp; &nbsp; .my-custom-breadcrumbs a,</p>
+<p>&nbsp; &nbsp; .my-custom-breadcrumbs .current-post-title {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; display: inline-block !important; &#x2F;* 或者 ‘inline’ *&#x2F;</p>
+<p>&nbsp; &nbsp; }</p>
+<p>}</p>
+<p>&#x2F;* 统一面包屑内所有文本（包括文章标题）的颜色为链接蓝色 *&#x2F;</p>
+<p>.my-custom-breadcrumbs a, &#x2F;* 链接 *&#x2F;</p>
+<p>.my-custom-breadcrumbs .current-post-title &#x2F;* 当前文章标题 *&#x2F; {</p>
+<p>&nbsp; &nbsp; color: var(–my-link-blue) !important; &#x2F;* 使用上面定义的蓝色变量，并强制覆盖 *&#x2F;</p>
+<p>}</p>
+<p>点击“发布”按钮保存更改。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>CyberPanel安装redis</title>
+    <url>/2025/06/04/cyberpanel%E5%AE%89%E8%A3%85redis/</url>
+    <content><![CDATA[<p>&nbsp;在CyberPanel面板【管理服务】-【Applications】安装redis,再去PHP安装Redis扩展，并去安装wp安装Redis插件。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>DD Debian 13 与优化一键脚本</title>
+    <url>/2025/09/06/dd-debian-13-%E4%B8%8E%E4%BC%98%E5%8C%96%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>DD Debian 13 与优化一键脚本</p>
+<p>一键 DD&nbsp; Debian13 :</p>
+<p>curl -O <a href="https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh">https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh</a> &amp;&amp; bash reinstall.sh debian 13 –ssh-port 12345 –password woshimima &amp;&amp; reboot</p>
+<p>一键配置脚本:</p>
+<p>apt install curl -y &amp;&amp; bash &lt;(curl -fsSL <a href="https://raw.githubusercontent.com/yahuisme/vps-setup/main/install.sh">https://raw.githubusercontent.com/yahuisme/vps-setup/main/install.sh</a>)</p>
+<p>项目地址:</p>
+<p><a href="https://github.com/bin456789/reinstall">https://github.com/bin456789/reinstall</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>div调整广告显示</title>
+    <url>/2025/06/11/div%E8%B0%83%E6%95%B4%E5%B9%BF%E5%91%8A%E6%98%BE%E7%A4%BA/</url>
+    <content><![CDATA[<p>让广告显示在网页的中间，只需在广告代码外层添加一个div:</p>
+<p>&lt;div style&#x3D;”text-align: center; margin-top: 50px;”&gt;<br>广告代码<br>&lt;&#x2F;div&gt;<br>50px意为与它上面的内容拉开50个像素的距离。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Docker一键浏览器版的Win11</title>
+    <url>/2025/04/26/docker%E4%B8%80%E9%94%AE%E6%B5%8F%E8%A7%88%E5%99%A8%E7%89%88%E7%9A%84win11/</url>
+    <content><![CDATA[<p>Docker一键可浏览器访问的Win11:</p>
+<p>docker run -it –rm –name windows -p 8006:8006 –device&#x3D;&#x2F;dev&#x2F;kvm –device&#x3D;&#x2F;dev&#x2F;net&#x2F;tun –cap-add NET_ADMIN -v “${PWD:-.}&#x2F;windows:&#x2F;storage” –stop-timeout 120 dockurr&#x2F;windows</p>
+<p>项目来源:</p>
+<p><a href="https://github.com/dockur/windows">https://github.com/dockur/windows</a></p>
+<p>Docker一键可浏览器访问Ubuntu的：</p>
+<p>docker run -p 6080:80 -v &#x2F;dev&#x2F;shm:&#x2F;dev&#x2F;shm dorowu&#x2F;ubuntu-desktop-lxde-vnc</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>frp-Android</title>
+    <url>/2025/05/30/frp-android/</url>
+    <content><![CDATA[<p>frp-Android项目地址:</p>
+<p><a href="https://github.com/AceDroidX/frp-Android/releases">https://github.com/AceDroidX/frp-Android/releases</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>frpc 一键脚本</title>
+    <url>/2025/06/02/frpc-%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>frpc 一键脚本:</p>
+<p>国外镜像</p>
+<p>wget <a href="https://raw.githubusercontent.com/stilleshan/frpc/master/frpc_linux_install.sh">https://raw.githubusercontent.com/stilleshan/frpc/master/frpc_linux_install.sh</a> &amp;&amp; chmod +x frpc_linux_install.sh &amp;&amp; .&#x2F;frpc_linux_install.sh</p>
+<p>国内镜像</p>
+<p>wget <a href="https://ghfast.top/https://raw.githubusercontent.com/stilleshan/frpc/master/frpc_linux_install.sh">https://ghfast.top/https://raw.githubusercontent.com/stilleshan/frpc/master/frpc_linux_install.sh</a> &amp;&amp; chmod +x frpc_linux_install.sh &amp;&amp; .&#x2F;frpc_linux_install.sh</p>
+<p>项目地址:&nbsp; &nbsp;<a href="https://github.com/stilleshan/frpc">https://github.com/stilleshan/frpc</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>ghs更新站</title>
+    <url>/2025/06/30/ghs%E6%9B%B4%E6%96%B0%E7%AB%99/</url>
+    <content><![CDATA[<p>ghs更新站</p>
+<p><a href="http://bgp.he.net/dns/ghs.google.com">http://bgp.he.net/dns/ghs.google.com</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2026/01/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo一键生成 + 部署</title>
+    <url>/2026/01/11/hexo%E4%B8%80%E9%94%AE%E7%94%9F%E6%88%90-%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<p>&nbsp;六边形</p>
+<p>hexo进入目录</p>
+<p>cd &#x2F;var&#x2F;www&#x2F;blog1&#x2F;themes&#x2F;next&#x2F;layout</p>
+<p>编辑广告</p>
+<p>nano &#x2F;var&#x2F;www&#x2F;blog1&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_layout.njk</p>
+<p>hexo一键生成 + 部署</p>
+<p>nano ~&#x2F;.bashrc&nbsp; &nbsp; &nbsp;输入:</p>
+<p>alias h&#x3D;’cd &#x2F;var&#x2F;www&#x2F;blog1 &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo d’</p>
+<p>保存后输入：source ~&#x2F;.bashrc</p>
+<p>确认 alias 是否生效:</p>
+<p>输入alias h</p>
+<p>应该是:&nbsp; &nbsp;alias h&#x3D;’cd &#x2F;var&#x2F;www&#x2F;blog1 &amp;&amp; hexo clean &amp;&amp; hexo g &amp;&amp; hexo d’</p>
+<p>以后输入h，Hexo 就一键生成 + 部署。</p>
+<p>hexo快捷命令写文章</p>
+<p>先检测是否是bash，输入echo $SHELL，&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 必须是&#x2F;bin&#x2F;sh</p>
+<p>nano &#x2F;usr&#x2F;local&#x2F;bin&#x2F;x，输入</p>
+<p>#!&#x2F;bin&#x2F;bash</p>
+<p>cd &#x2F;var&#x2F;www&#x2F;blog1 || exit 1</p>
+<h1 id="捕获完整命令名（如-x测试文章ABC）"><a href="#捕获完整命令名（如-x测试文章ABC）" class="headerlink" title="捕获完整命令名（如 x测试文章ABC）"></a>捕获完整命令名（如 x测试文章ABC）</h1><p>cmd&#x3D;”$0”</p>
+<h1 id="去掉前缀-x，剩下的就是标题"><a href="#去掉前缀-x，剩下的就是标题" class="headerlink" title="去掉前缀 x，剩下的就是标题"></a>去掉前缀 x，剩下的就是标题</h1><p>title&#x3D;”${cmd#x}”</p>
+<p>if [ -z “$title” ]; then</p>
+<p>&nbsp; echo “标题不能为空”</p>
+<p>&nbsp; exit 1</p>
+<p>fi</p>
+<p>file&#x3D;”source&#x2F;_posts&#x2F;${title}.md”</p>
+<h1 id="如果文件不存在就创建空白文件"><a href="#如果文件不存在就创建空白文件" class="headerlink" title="如果文件不存在就创建空白文件"></a>如果文件不存在就创建空白文件</h1><p>[ -f “$file” ] || touch “$file”</p>
+<h1 id="打开编辑器"><a href="#打开编辑器" class="headerlink" title="打开编辑器"></a>打开编辑器</h1><p>nano “$file”</p>
+<h1 id="自动-push"><a href="#自动-push" class="headerlink" title="自动 push"></a>自动 push</h1><p>git add .</p>
+<p>git commit -m “post: $title”</p>
+<p>git push</p>
+<h1 id="自动部署"><a href="#自动部署" class="headerlink" title="自动部署"></a>自动部署</h1><p>hexo clean</p>
+<p>hexo g</p>
+<p>hexo d</p>
+<p>授予权限:&nbsp; &nbsp; chmod +x &#x2F;usr&#x2F;local&#x2F;bin&#x2F;x</p>
+<p>以后只要输入x加文章标题就可以进入编辑框，并且文章自动推送到github</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hugo一边运行，一边可以在termux运行其他命令的方法</title>
+    <url>/2025/07/15/hugo%E4%B8%80%E8%BE%B9%E8%BF%90%E8%A1%8C-%E4%B8%80%E8%BE%B9%E5%8F%AF%E4%BB%A5%E5%9C%A8termux%E8%BF%90%E8%A1%8C%E5%85%B6%E4%BB%96%E5%91%BD%E4%BB%A4%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>让hugo一边运行，一边可以在termux运行命令:</p>
+<p>cd ~&#x2F;myhugo(myhugo是博客名字)</p>
+<p>hugo server -D –bind 0.0.0.0 –disableFastRender &amp;</p>
+<p>这样可以让 Hugo 服务器在当前会话的后台运行，也可以在这个会话中继续输入其他命令。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>jcnfbox的Linux工具箱</title>
+    <url>/2025/04/25/jcnfbox%E7%9A%84linux%E5%B7%A5%E5%85%B7%E7%AE%B1/</url>
+    <content><![CDATA[<p>jcnfbox的Linux工具箱</p>
+<p>wget -O jcnfbox.sh <a href="https://raw.githubusercontent.com/Netflixxp/jcnf-box/main/jcnfbox.sh">https://raw.githubusercontent.com/Netflixxp/jcnf-box/main/jcnfbox.sh</a> &amp;&amp; chmod +x jcnfbox.sh &amp;&amp; 清除 &amp;&amp; .&#x2F;jcnfbox.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Linux TCP/IP 和 BBR 参数智能优化脚本</title>
+    <url>/2025/11/30/linux-tcp-ip-%E5%92%8C-bbr-%E5%8F%82%E6%95%B0%E6%99%BA%E8%83%BD%E4%BC%98%E5%8C%96%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>Linux TCP&#x2F;IP 和 BBR 参数智能优化脚本</p>
+<p>&nbsp;bash &lt;(curl -sL <a href="https://raw.githubusercontent.com/yahuisme/network-optimization/main/script.sh">https://raw.githubusercontent.com/yahuisme/network-optimization/main/script.sh</a>)</p>
+<p>来源:<a href="https://github.com/yahuisme/network-optimization">https://github.com/yahuisme/network-optimization</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Linux 一键初始化 &amp; SSH 加固脚本 </title>
+    <url>/2025/12/12/linux-%E4%B8%80%E9%94%AE%E5%88%9D%E5%A7%8B%E5%8C%96-ssh-%E5%8A%A0%E5%9B%BA%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>&nbsp;Linux 一键初始化 &amp; SSH 加固脚本&nbsp;</p>
+<p>curl -fsSL <a href="https://raw.githubusercontent.com/247like/linux-ssh-init-sh/main/init.sh">https://raw.githubusercontent.com/247like/linux-ssh-init-sh/main/init.sh</a> -o init.sh &amp;&amp; chmod +x init.sh &amp;&amp; .&#x2F;init.sh</p>
+<p>来源:&nbsp; &nbsp; <a href="https://github.com/247like/linux-ssh-init-sh">https://github.com/247like/linux-ssh-init-sh</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Linux搭建kasm桌面</title>
+    <url>/2025/04/22/linux%E6%90%AD%E5%BB%BAkasm%E6%A1%8C%E9%9D%A2/</url>
+    <content><![CDATA[<p>&nbsp;sudo docker run –rm -it –shm-size&#x3D;512m -p 6901:6901 -e VNC_PW&#x3D;A123@vps kasmweb&#x2F;ubuntu-bionic-desktop:1.10.0</p>
+<p>也去过了–rm</p>
+<p>即:</p>
+<p>sudo docker run –restart always -it –shm-size&#x3D;512m -p 6901:6901 -e VNC_PW&#x3D;A123@vps kasmweb&#x2F;ubuntu-bionic-desktop:1.10.0-rolling</p>
+<p>安装了后，浏览器输入<a href="https://ip:6901/">https://IP:6901</a></p>
+<p>登陆用户：kasm_user</p>
+<p>密码：A123@vps</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Linux的编辑器vim如果按了esc无法进入命令模式，可这样</title>
+    <url>/2025/05/19/linux%E7%9A%84%E7%BC%96%E8%BE%91%E5%99%A8vim%E5%A6%82%E6%9E%9C%E6%8C%89%E4%BA%86esc%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F-%E5%8F%AF%E8%BF%99%E6%A0%B7/</url>
+    <content><![CDATA[<p>Linux的编辑器vim如果按了esc无法进入命令模式，可按shift，再输入:wq!</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Mdpings,   另一个手机探针App</title>
+    <url>/2025/07/24/mdpings-%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%89%8B%E6%9C%BA%E6%8E%A2%E9%92%88app/</url>
+    <content><![CDATA[<p>Mdpings是另一个手机探针App，但要先安装哪吒面板。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>nat.ee发布的Win10镜像</title>
+    <url>/2025/04/14/nat-ee%E5%8F%91%E5%B8%83%E7%9A%84win10%E9%95%9C%E5%83%8F/</url>
+    <content><![CDATA[<p>&nbsp;nat.ee发布的Win10镜像:</p>
+<p><a href="https://list.drive.kim/d/ecloud/dd/Windows/lite-%E7%B2%BE%E7%AE%80%E7%89%88/default/Windows10-2016LTSB-64/Win10_2016LTSB_64_Administrator_nat.ee.gz">https://list.drive.kim/d/ecloud/dd/Windows/lite-%E7%B2%BE%E7%AE%80%E7%89%88/default/Windows10-2016LTSB-64/Win10_2016LTSB_64_Administrator_nat.ee.gz</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>parallels永久免费版的一点技巧</title>
+    <url>/2025/05/29/parallels%E6%B0%B8%E4%B9%85%E5%85%8D%E8%B4%B9%E7%89%88%E7%9A%84%E4%B8%80%E7%82%B9%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<p>&nbsp;parallels永久免费版，不要点其他的，直接点 Client Installation File 下面的链接:</p>
+<p><a href="https://www.parallels.cn/products/ras/capabilities/parallels-client/">https://www.parallels.cn/products/ras/capabilities/parallels-client/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>privacy eraser  Windows优化工具</title>
+    <url>/2025/05/18/privacy-eraser-windows%E4%BC%98%E5%8C%96%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>隐私橡皮擦Windows优化工具&nbsp; &nbsp;下载：</p>
+<p><a href="https://download.cnet.com/support/privacy-eraser-free/3000-18512_4-76086812.html">https://download.cnet.com/support/privacy-eraser-free/3000-18512_4-76086812.html</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Realm&amp;一键转发脚本 优化重构版</title>
+    <url>/2025/06/01/realm-%E4%B8%80%E9%94%AE%E8%BD%AC%E5%8F%91%E8%84%9A%E6%9C%AC-%E4%BC%98%E5%8C%96%E9%87%8D%E6%9E%84%E7%89%88/</url>
+    <content><![CDATA[<p>国外机器:&nbsp; &nbsp; &nbsp;wget -N <a href="https://raw.githubusercontent.com/shiyi11yi/EZRealm/main/realm.sh">https://raw.githubusercontent.com/shiyi11yi/EZRealm/main/realm.sh</a> &amp;&amp; chmod +x realm.sh &amp;&amp; .&#x2F;realm.sh</p>
+<p>国内机器:&nbsp; &nbsp; &nbsp; &nbsp; wget -N <a href="https://raw.githubusercontent.com/shiyi11yi/EZRealm/main/CN/realm.sh">https://raw.githubusercontent.com/shiyi11yi/EZRealm/main/CN/realm.sh</a> &amp;&amp; chmod +x realm.sh &amp;&amp; .&#x2F;realm.sh</p>
+<p>再次运行本脚本&nbsp; &nbsp; &nbsp; .&#x2F;realm.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>realm 一键转发脚本安装</title>
+    <url>/2025/04/14/realm-%E4%B8%80%E9%94%AE%E8%BD%AC%E5%8F%91%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<p>realm安装:</p>
+<p>wget -N <a href="https://raw.githubusercontent.com/qqrrooty/EZrealm/main/realm.sh">https://raw.githubusercontent.com/qqrrooty/EZrealm/main/realm.sh</a> &amp;&amp; chmod +x realm.sh &amp;&amp; .&#x2F;realm.sh启动:.&#x2F;realm.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Realm一条命令tcp和udp转发</title>
+    <url>/2025/04/11/realm%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4tcp%E5%92%8Cudp%E8%BD%AC%E5%8F%91/</url>
+    <content><![CDATA[<p>&nbsp;Realm一条命令tcp和udp转发</p>
+<p>realm -l [IPv4 地址]:[端口] -r [IPv6 地址]:[端口]</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>s-ui面板安装与搭建中转落地</title>
+    <url>/2026/01/09/s-ui%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85%E4%B8%8E%E6%90%AD%E5%BB%BA%E4%B8%AD%E8%BD%AC%E8%90%BD%E5%9C%B0/</url>
+    <content><![CDATA[<p>来源：nodeseek</p>
+<p><a href="https://www.nodeseek.com/post-471245-1">https://www.nodeseek.com/post-471245-1</a></p>
+<p>&nbsp;</p>
+<p>s-ui面板安装：</p>
+<p>Linux&#x2F;macOS 安装:</p>
+<p>bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh">https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh</a>)</p>
+<p>视窗安装:</p>
+<p>从GitHub Releases下载最新的Windows版本</p>
+<p>解压缩ZIP文件</p>
+<p>install-windows.bat以管理员身份运行</p>
+<p>按安装手册操作。</p>
+<p>搭建中转落地</p>
+<p>落地机</p>
+<p>1·搭建S-UI面板</p>
+<p>2·进入入站管理</p>
+<p>入站类型选择 Shadowsocks ;监听端口自定比如设置 8081 方法随便选比如2022-blake3-aes-;网络TCP&#x2F;UDP密码自动生成例如：y2z0EU8CQ&#x2F;pjt18VH0kyrg&#x3D;&#x3D;</p>
+<p>保存后退出</p>
+<p>中转机操作#中转机即高速节点</p>
+<p>1·搭建S-UI面板</p>
+<p>2·进入入站管理</p>
+<p>入站类型选择Vless标签日澳Trans #建议这里中文标清楚以后节点名称就是显示的这个一个；监听端口可以按系统自己生成的；模版选择自己搭建之前的我没选现实选的另一个</p>
+<p>3·出站管理</p>
+<p>出站类型选择落地机相同的Shadowsocks标签自定义好区分的例如：Shadowsocks- AUS</p>
+<p>服务器地址：落地机的IP端口 落地机刚才搭建入站的8081</p>
+<p>方法：选择落地机一致的比如2022-blake3-aes-网络TCP&#x2F;UDP</p>
+<p>密码落地机生成的 y2z0EU8CQ&#x2F;pjt18VH0kyrg&#x3D;&#x3D;</p>
+<p>保存</p>
+<p>4·用户管理</p>
+<p>新建用户取名简短如日澳翻译；入站标签选择刚才建的</p>
+<p>5·路由列表</p>
+<p>添加规则逻辑选上小白我这里选的“用户管理”选择第4项新建的用户日澳Trans</p>
+<p>操作就选路线模式和</p>
+<p>出站选项选择第4步建立的Shadowsocks- AUS</p>
+<p>注意保存#以下方弹网络错误可无视直接刷新网页</p>
+<p>6·到用户管理里</p>
+<p>用户日澳Trans里把配置的节点地址丢到V2RayN里实​​现</p>
+<p>打开google就是落地机的IP啦</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>S-UI面板搭建</title>
+    <url>/2025/11/17/s-ui%E9%9D%A2%E6%9D%BF%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<p>&nbsp;S-UI面板搭建:</p>
+<p>bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh">https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh</a>)</p>
+<p>项目地址:&nbsp; &nbsp;<a href="https://github.com/alireza0/s-ui">https://github.com/alireza0/s-ui</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Sing-box 一键脚本</title>
+    <url>/2025/07/02/sing-box-%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>Sing-box 一键脚本</p>
+<p>bash &lt;(wget -qO- <a href="https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh">https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh</a>)</p>
+<p>再次运行:&nbsp; &nbsp; sb&nbsp;</p>
+<p>所有协议均不需要域名<br>内置 warp 链式代理解锁 chatGPT<br>智能判断操作系统: Ubuntu 、Debian 、CentOS 、Alpine 和 Arch Linux,请务必选择 LTS 系统</p>
+]]></content>
+  </entry>
+  <entry>
+    <title> SSH 加快连接的几种方法</title>
+    <url>/2025/07/13/ssh-%E5%8A%A0%E5%BF%AB%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>SSH 加快连接的几种方法</p>
+<p>方法1:&nbsp; &nbsp; 使用 SSH 密钥认证 (最推荐)：</p>
+<p>原理： 密钥认证比密码认证快得多，因为它不需要在每次连接时传输密码并进行哈希运算。</p>
+<p>在本地生成 SSH 密钥对 (ssh-keygen),将公钥 (~&#x2F;.ssh&#x2F;id_rsa.pub) 上传到服务器的 ~&#x2F;.ssh&#x2F;authorized_keys。</p>
+<p>（可选）使用 ssh-agent 或客户端工具（如 JuiceSSH 的密码短语记住功能）来记住私钥密码短语，避免每次输入。</p>
+<p>方法2:&nbsp; &nbsp;禁用 DNS 反向解析 (客户端 sshd_config)：</p>
+<p>原理： SSH 服务器在接收连接时，默认会尝试反向解析客户端的 IP 地址到域名。如果客户端 IP 没有对应的 PTR 记录，或者 DNS 解析慢，这会拖慢连接速度。</p>
+<p>这个方法是在服务器端 &#x2F;etc&#x2F;ssh&#x2F;sshd_config 中设置，但效果体现在客户端连接速度，</p>
+<p>sudo nano &#x2F;etc&#x2F;ssh&#x2F;sshd_config</p>
+<p>修改为UseDNS no，如果前面有 #，删除它</p>
+<p>方法3:&nbsp; &nbsp; &nbsp; 配置 SSH 客户端连接复用 (ControlMaster)：</p>
+<p>原理： 允许您在同一个 SSH 会话上复用多个连接。当您第一次连接后，后续的连接（如 scp, sftp 或再次 ssh）将直接通过已建立的通道，无需重新进行认证和握手，速度极快。</p>
+<p>在您本地电脑或 比如Termux 的 <del>&#x2F;.ssh&#x2F;config 文件(</del>&#x2F;.ssh&#x2F;config 文件的权限必须是 600)</p>
+<p>中添加以下配置：</p>
+<p>Host *</p>
+<p>ControlMaster auto</p>
+<p>ControlPath ~&#x2F;.ssh&#x2F;cm_socket&#x2F;%r@%h:%p</p>
+<p>ControlPersist 600s # 保持主连接活跃 600 秒</p>
+<p>方法4:优化连接超时设置 (客户端 config)：</p>
+<p>原理： 减少 SSH 客户端等待服务器响应的时间。如果网络特别差，可能需要增加。在客户端的&nbsp;~&#x2F;.ssh&#x2F;config 中添加:</p>
+<p>Host *</p>
+<p>&nbsp; &nbsp; ConnectTimeout 10     # 连接超时10秒</p>
+<p>&nbsp; &nbsp; ServerAliveInterval 60 # 每60秒发送一次保活消息</p>
+<p>&nbsp; &nbsp; ServerAliveCountMax 3  # 最多发送3次保活消息未响应则断开</p>
+<p>方法5:&nbsp; &nbsp; &nbsp;指定密码认证方式 (客户端 config):</p>
+<p>原理： 强制 SSH 客户端先尝试 keyboard-interactive 或 password 认证，而不浪费时间尝试其他不适用的认证方式。但通常，如果设置了密钥，SSH 会优先尝试密钥。</p>
+<p>&nbsp;在 ~&#x2F;.ssh&#x2F;config 中添加（如果需要密码登录）：</p>
+<p>Host *</p>
+<p>PreferredAuthentications publickey,keyboard-interactive,password</p>
+<p>方法6:&nbsp; &nbsp; 禁用 GSSAPI 认证</p>
+<p>原理： GSSAPI 认证（如 Kerberos）在某些环境下会尝试很长时间，导致连接缓慢。</p>
+<p>在服务器端 &#x2F;etc&#x2F;ssh&#x2F;sshd_config 中设置</p>
+<p>GSSAPIAuthentication no</p>
+<p>保存并重启 SSH 服务</p>
+<p>方法7:&nbsp; &nbsp;使用 Mosh (Mobile Shell)</p>
+<p>其实，有个一键优化SSH：</p>
+<p>sed -i ‘&#x2F;^#UseDNS&#x2F;d’ &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; echo ‘UseDNS no’ &gt;&gt; &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; \</p>
+<p>sed -i ‘&#x2F;^#GSSAPIAuthentication&#x2F;d’ &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; echo ‘GSSAPIAuthentication no’ &gt;&gt; &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; \</p>
+<p>sed -i ‘&#x2F;^#PermitRootLogin&#x2F;d’ &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; echo ‘PermitRootLogin no’ &gt;&gt; &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; \</p>
+<p>sed -i ‘&#x2F;^#PasswordAuthentication&#x2F;d’ &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; echo ‘PasswordAuthentication no’ &gt;&gt; &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; \</p>
+<p>sed -i ‘&#x2F;^#ClientAliveInterval&#x2F;d’ &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; echo ‘ClientAliveInterval 300’ &gt;&gt; &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; \</p>
+<p>sed -i ‘&#x2F;^#ClientAliveCountMax&#x2F;d’ &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; echo ‘ClientAliveCountMax 2’ &gt;&gt; &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; \</p>
+<p>sed -i ‘&#x2F;^#TCPKeepAlive&#x2F;d’ &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; echo ‘TCPKeepAlive no’ &gt;&gt; &#x2F;etc&#x2F;ssh&#x2F;sshd_config &amp;&amp; \</p>
+<p>echo -e “\n✅ SSH配置已优化，重启服务即可生效：” &amp;&amp; \</p>
+<p>服务 sshd 重启 || systemctl 重启 sshd</p>
+<p>说明:</p>
+<p>UseDNS no 取消DNS反向解析，加快连接速度</p>
+<p>GSSAPIAuthentication 不禁用GSSAPI，避免Kerberos 卡顿</p>
+<p>PermitRootLogin no 禁止root登录，提升安全性</p>
+<p>密码验证 否 强制使用密钥登录</p>
+<p>ClientAliveInterval 300 - 5 分钟检测是否连接</p>
+<p>ClientAliveCountMax 2 超过10分钟无响应自动中断</p>
+<p>TCPKeepAlive 不会降低中间人攻击风险</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>TCP 迷之调参</title>
+    <url>/2025/05/14/tcp-%E8%BF%B7%E4%B9%8B%E8%B0%83%E5%8F%82/</url>
+    <content><![CDATA[<p>&nbsp;<a href="https://omnitt.com/">https://omnitt.com/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>TCP调优简化版</title>
+    <url>/2025/06/07/tcp%E8%B0%83%E4%BC%98%E7%AE%80%E5%8C%96%E7%89%88/</url>
+    <content><![CDATA[<p>TCP调优简化版</p>
+<p>bash &lt;(curl -sL <a href="https://raw.githubusercontent.com/AiLi1337/TCP-Tuning-Simple-Version/main/TCP-Tuning-Simple-Version.sh">https://raw.githubusercontent.com/AiLi1337/TCP-Tuning-Simple-Version/main/TCP-Tuning-Simple-Version.sh</a>)&nbsp;</p>
+<p>译： 脚本</p>
+<p>wget -q <a href="https://raw.githubusercontent.com/BlackSheep-cry/TCP-Optimization-Tool/main/tool.sh">https://raw.githubusercontent.com/BlackSheep-cry/TCP-Optimization-Tool/main/tool.sh</a> -O tool.sh &amp;&amp; chmod +x tool.sh &amp;&amp; .&#x2F;tool.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Twentytwelve 木头人修改版</title>
+    <url>/2025/05/15/twentytwelve-%E6%9C%A8%E5%A4%B4%E4%BA%BA%E4%BF%AE%E6%94%B9%E7%89%88/</url>
+    <content><![CDATA[<p>&nbsp;Twentytwelve 木头人修改版下载地址</p>
+<p><a href="https://github.com/huhexian/2012-huhexian/archive/refs/heads/main.zip">https://github.com/huhexian/2012-huhexian/archive/refs/heads/main.zip</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Vmess+WebSocket搭建中转服务器</title>
+    <url>/2025/05/09/vmess-websocket%E6%90%AD%E5%BB%BA%E4%B8%AD%E8%BD%AC%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<p>文章来源:&nbsp; &nbsp; &nbsp;<a href="https://www.laoliuceping.com/31450.html">https://www.laoliuceping.com/31450.html</a></p>
+<p>比如一台德国机慢，一台日本机快，给两台服务器都安装3x-ui面板，配置德鸡，面板进入“新建入站”界面。</p>
+<p>选择协议为Vmess，默认端口为10391。添加用户时选择传输协议为WebSocket，并输入6-8位随机路径字符（如：&#x2F;abc123）。确认后保存设置，将生成的链接导入到V2RAY客户端测试。若速度显示为数字，则表示配置成功。配置日本中转机入站规则登录中转机的3x-ui面板，进入“新建入站”界面。协议选择为dokodemo-door（中文名“任意门”），默认端口为35466。设置目标地址和端口：目标地址填写德国落地机的IP（如：95.169.x.x），目标端口为10391。保存设置，完成配置。<br>修改V2RAY客户端设置编辑落地机的服务器配置，名称可随意设置。地址修改为中转机的IP（如：5.34.x.x），端口修改为中转机的端口35466。确认后右键测速，若显示速度数据则说明配置正常。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>VMOS Pro_1.4.0_免费会员版     </title>
+    <url>/2025/09/17/vmos-pro_1-4-0_%E5%85%8D%E8%B4%B9%E4%BC%9A%E5%91%98%E7%89%88/</url>
+    <content><![CDATA[<p>VMOS Pro_1.4.0_免费会员版&nbsp;</p>
+<p><a href="https://wws.lanzoub.com/iuC4S01qxnva">https://wws.lanzoub.com/iuC4S01qxnva</a></p>
+<p>密码:qwerty</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>vmos pro破解版大本营</title>
+    <url>/2025/09/17/vmos-pro%E7%A0%B4%E8%A7%A3%E7%89%88%E5%A4%A7%E6%9C%AC%E8%90%A5/</url>
+    <content><![CDATA[<p>vmos pro破解版大本营</p>
+<p><a href="https://soso.lanzoux.com/b00o59g5a">https://soso.lanzoux.com/b00o59g5a</a></p>
+<p>密码73pi</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>vmware下载地址</title>
+    <url>/2025/05/23/vmware%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/</url>
+    <content><![CDATA[<p>先注册账号，再进去下载:</p>
+<p><a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&amp;freeDownloads=true">https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&amp;freeDownloads=true</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>VPS一键系统管理</title>
+    <url>/2025/11/25/vps%E4%B8%80%E9%94%AE%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<p>&nbsp;VPS一键系统管理：</p>
+<p>bash &lt;(curl -sL sh.cici.one)</p>
+<p>&nbsp;</p>
+<p>只支持DEBIAN,ubuntu系统</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>vps安装 command-not-found:  先输入:  apt install command-not-found  </title>
+    <url>/2025/05/24/vps%E5%AE%89%E8%A3%85-command-not-found-%E5%85%88%E8%BE%93%E5%85%A5-apt-install-command-not-found/</url>
+    <content><![CDATA[<p>vps安装 command-not-found:<br>先输入:<br>apt install command-not-found<br>接着:apt-file update<br>update-command-not-found</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>vps定期释放缓存与清理日志</title>
+    <url>/2025/04/06/vps%E5%AE%9A%E6%9C%9F%E9%87%8A%E6%94%BE%E7%BC%93%E5%AD%98%E4%B8%8E%E6%B8%85%E7%90%86%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<p>定期释放缓存：</p>
+<p>sync; echo 3 &gt; &#x2F;proc&#x2F;sys&#x2F;vm&#x2F;drop_caches</p>
+<p>加到 cron 任务中，每天定期执行：</p>
+<p>echo “0 4 * * * root sync; echo 3 &gt; &#x2F;proc&#x2F;sys&#x2F;vm&#x2F;drop_caches” &gt;&gt; &#x2F;etc&#x2F;crontab</p>
+<p>定期清理日志：</p>
+<p>journalctl –vacuum-size&#x3D;100M # 清理日志至100MB</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>VPS工具箱脚本</title>
+    <url>/2025/08/12/vps%E5%B7%A5%E5%85%B7%E7%AE%B1%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>VPS工具箱脚本</p>
+<p>bash &lt;(curl -sL <a href="https://raw.githubusercontent.com/qqzhoufan/fishtools/main/fishtools.sh">https://raw.githubusercontent.com/qqzhoufan/fishtools/main/fishtools.sh</a>)</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Warp-go一键脚本</title>
+    <url>/2025/04/16/warp-go%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>Warp-go一键脚本:</p>
+<p>wget -N <a href="https://gitlab.com/fscarmen/warp/-/raw/main/warp-go.sh">https://gitlab.com/fscarmen/warp/-/raw/main/warp-go.sh</a> &amp;&amp; bash warp-go.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>WARP的几个脚本</title>
+    <url>/2025/04/16/warp%E7%9A%84%E5%87%A0%E4%B8%AA%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>&nbsp;一个是fscarmen的，一个是P3TERX的，还有一个是WARP go，也就是ProjectWARP，三个里面第一个最简单，就一行代码:</p>
+<p>wget -N <a href="https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh">https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh</a> &amp;&amp; bash menu.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Windows Server 2022 EvaluationWindo评估版升级为Windows Server 2022 Standard正式版</title>
+    <url>/2025/05/01/windows-server-2022-evaluationwindo%E8%AF%84%E4%BC%B0%E7%89%88%E5%8D%87%E7%BA%A7%E4%B8%BAwindows-server-2022-standard%E6%AD%A3%E5%BC%8F%E7%89%88/</url>
+    <content><![CDATA[<p>Windows Server 2022 Standard正式版的密钥是VDYBN-27WPP-V4HQT-9VMD4-VMK7H，&nbsp;</p>
+<p>在powershell运行&nbsp; DISM &#x2F;online &#x2F;Set-Edition:ServerStandard &#x2F;ProductKey:VDYBN-27WPP-V4HQT-9VMD4-VMK7H &#x2F;AcceptEula</p>
+<p>重启电脑。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Windows内存释放工具</title>
+    <url>/2025/05/30/windows%E5%86%85%E5%AD%98%E9%87%8A%E6%94%BE%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>Windows内存释放工具:</p>
+<p><a href="https://github.com/henrypp/memreduct/releases">https://github.com/henrypp/memreduct/releases</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title> x-ui甬哥版据说默认解锁ChatGPT</title>
+    <url>/2025/05/22/x-ui%E7%94%AC%E5%93%A5%E7%89%88%E6%8D%AE%E8%AF%B4%E9%BB%98%E8%AE%A4%E8%A7%A3%E9%94%81chatgpt/</url>
+    <content><![CDATA[<p>&nbsp;x-ui甬哥版剩余节点即可解锁ChatGPT，最多实现6个IP分流共存，支持warp-socks5与wireguard warp出站流:</p>
+<p>bash &lt;(wget -qO- <a href="https://gitlab.com/rwkgyg/x-ui-yg/raw/main/install.sh">https://gitlab.com/rwkgyg/x-ui-yg/raw/main/install.sh</a> 2&gt; &#x2F;dev&#x2F;null)</p>
+<p>项目地址&nbsp; <a href="https://github.com/yonggekkk/x-ui-yg">https://github.com/yonggekkk/x-ui-yg</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Xray 核心的 VLESS +Reality 模式</title>
+    <url>/2025/04/16/xray-%E6%A0%B8%E5%BF%83%E7%9A%84-vless-reality-%E6%A8%A1%E5%BC%8F/</url>
+    <content><![CDATA[<p>更新软件:</p>
+<p>apt update</p>
+<p>安装curl:</p>
+<p>apt install curl -y</p>
+<p>安装Xray 核心的 VLESS +Reality 模式:</p>
+<p>bash &lt;(curl -L <a href="https://github.com/crazypeace/xray-vless-reality/raw/main/install.sh">https://github.com/crazypeace/xray-vless-reality/raw/main/install.sh</a>) 4 8443</p>
+<p>修改配置&nbsp; nano &#x2F;usr&#x2F;local&#x2F;etc&#x2F;xray&#x2F;config.json</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>zywe的realm转发脚本</title>
+    <url>/2025/11/26/zywe%E7%9A%84realm%E8%BD%AC%E5%8F%91%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>一键安装:</p>
+<p>wget -qO- <a href="https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh">https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh</a> |须藤 bash -s 安装</p>
+<p>如在国内速度不够快也可这样:</p>
+<p>wget -qO- <a href="https://ghfast.top/https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh">https://ghfast.top/https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh</a> |须藤 bash -s 安装</p>
+<p>开源地址:</p>
+<p><a href="https://github.com/zywe03/realm-xwPF">https://github.com/zywe03/realm-xwPF</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一个 VPS 调优的脚本</title>
+    <url>/2025/09/14/%E4%B8%80%E4%B8%AA-vps-%E8%B0%83%E4%BC%98%E7%9A%84%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>&nbsp;wget -O tcpx.sh “<a href="https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh">https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh</a>“ &amp;&amp; chmod +x tcpx.sh &amp;&amp; .&#x2F;tcpx.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一个win11精简版</title>
+    <url>/2025/04/12/%E4%B8%80%E4%B8%AAwin11%E7%B2%BE%E7%AE%80%E7%89%88/</url>
+    <content><![CDATA[<p>&nbsp;<a href="https://pan.quark.cn/s/266668b60615">https://pan.quark.cn/s/266668b60615</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一个安卓模拟定位软件</title>
+    <url>/2025/05/25/%E4%B8%80%E4%B8%AA%E5%AE%89%E5%8D%93%E6%A8%A1%E6%8B%9F%E5%AE%9A%E4%BD%8D%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<p><a href="https://aixis.lanzoul.com/tp/igeEQ2t9b2dc?webtp=V2YBYVw1Am5TNABlAWEBMFM5AT1TcFFhBjJRZVc5BjEGP1s_bAGkBZ1N5VDAGYAc1VSEHM1E_bVGJSewE2Uz0HNFd5AWdcNgJvU3kAYQEwATlTOAE3Uz5RZQZjUWZXPAZlBjNbOABoAWBTMlQ0BmsHNFU_bBzZRb1Q0UjcBY1M7BzJXYAFkXGMCNFMyACoBZQ_c_c">https://aixis.lanzoul.com/tp/igeEQ2t9b2dc?webtp=V2YBYVw1Am5TNABlAWEBMFM5AT1TcFFhBjJRZVc5BjEGP1s_bAGkBZ1N5VDAGYAc1VSEHM1E_bVGJSewE2Uz0HNFd5AWdcNgJvU3kAYQEwATlTOAE3Uz5RZQZjUWZXPAZlBjNbOABoAWBTMlQ0BmsHNFU_bBzZRb1Q0UjcBY1M7BzJXYAFkXGMCNFMyACoBZQ_c_c</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一个据说可以接码注册GV的短信站</title>
+    <url>/2025/12/31/%E4%B8%80%E4%B8%AA%E6%8D%AE%E8%AF%B4%E5%8F%AF%E4%BB%A5%E6%8E%A5%E7%A0%81%E6%B3%A8%E5%86%8Cgv%E7%9A%84%E7%9F%AD%E4%BF%A1%E7%AB%99/</url>
+    <content><![CDATA[<p>&nbsp;一个据说可以接码注册GV的短信站</p>
+<p><a href="https://www.smspool.net/">https://www.smspool.net</a></p>
+<p>还有这两个据说也可以</p>
+<p><a href="https://sms-bus.com/">https://sms-bus.com</a></p>
+<p><a href="https://daisysms.com/">https://daisysms.com</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一个检测是否是住宅IP的工具</title>
+    <url>/2025/05/02/%E4%B8%80%E4%B8%AA%E6%A3%80%E6%B5%8B%E6%98%AF%E5%90%A6%E6%98%AF%E4%BD%8F%E5%AE%85ip%E7%9A%84%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>&nbsp;<a href="https://iphub.info/">https://iphub.info/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一个清新的wp主题与四个blogger主题</title>
+    <url>/2025/06/10/%E4%B8%80%E4%B8%AA%E6%B8%85%E6%96%B0%E7%9A%84wp%E4%B8%BB%E9%A2%98%E4%B8%8E%E5%9B%9B%E4%B8%AAblogger%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[<p>&nbsp;一个清新的可湿性粉剂主题与四个博主主题：</p>
+<p>清新的wp主题是Iconic One Tme</p>
+<p>博主主题一个是median ui博主模板，下载地址：</p>
+<p><a href="https://gooyaabitemplates.com/download/Medium-UI-Free-Version-3.0.zip">https://gooyaabitemplates.com/download/Medium-UI-Free-Version-3.0.zip</a></p>
+<p>一个是JetTheme ，下载</p>
+<p><a href="https://www.yunjiyi.com/2024/12/jettheme-blogger.html?m=1">https://www.yunjiyi.com/2024/12/jettheme-blogger.html?m=1</a></p>
+<p>一个是essential，下载</p>
+<p><a href="https://1drv.ms/u/c/13dd5039e51db277/EULeJQfOfIdFkeYV8qyoVC8B9DLWOfwh_50boiYrygh5Xg?e=IMofTF">https://1drv.ms/u/c/13dd5039e51db277/EULeJQfOfIdFkeYV8qyoVC8B9DLWOfwh_50boiYrygh5Xg?e=IMofTF</a></p>
+<p>一个是Contempo，Contempo在Blogger官方内置的主题有，当然，Soho &#x2F; Emporio &#x2F;Notable这几个也不错，也有Blogger官方内置。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一份xui面板加速节点的配置</title>
+    <url>/2025/07/08/%E4%B8%80%E4%BB%BDxui%E9%9D%A2%E6%9D%BF%E5%8A%A0%E9%80%9F%E8%8A%82%E7%82%B9%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>下列代码是xui面板让一台速度比较快的vps加速一台速度比较慢的vps的vless节点，并以socks代理整体加速这台IP为45.192.249.224的vps。</p>
+<p>45.192.249.224是一台速度比较慢的vps，43988是它的vless节点的端口，下面是在速度比较快的vps安装的xui面板的配置:</p>
+<p>{</p>
+<p>&nbsp; “log”: {</p>
+<p>&nbsp; &nbsp; “loglevel”: “warning”</p>
+<p>&nbsp; },</p>
+<p>&nbsp; “inbounds”: [</p>
+<p>&nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; “listen”: “127.0.0.1”,</p>
+<p>&nbsp; &nbsp; &nbsp; “port”: 9000,</p>
+<p>&nbsp; &nbsp; &nbsp; “protocol”: “dokodemo-door”,</p>
+<p>&nbsp; &nbsp; &nbsp; “settings”: {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “address”: “127.0.0.1”</p>
+<p>&nbsp; &nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; &nbsp; “tag”: “api”</p>
+<p>&nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; “listen”: “0.0.0.0”,</p>
+<p>&nbsp; &nbsp; &nbsp; “port”: 43989,</p>
+<p>&nbsp; &nbsp; &nbsp; “protocol”: “vless”,</p>
+<p>&nbsp; &nbsp; &nbsp; “settings”: {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “clients”: [</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “id”: “b35fab9a-2afb-2b78-d2e4-417a326fcbcd”,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “flow”: “xtls-rprx-vision”</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; ],</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “decryption”: “none”</p>
+<p>&nbsp; &nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; &nbsp; “streamSettings”: {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “network”: “tcp”,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “security”: “none”</p>
+<p>&nbsp; &nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; &nbsp; “tag”: “client-entry”</p>
+<p>&nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; “listen”: “0.0.0.0”,</p>
+<p>&nbsp; &nbsp; &nbsp; “port”: 1080,</p>
+<p>&nbsp; &nbsp; &nbsp; “protocol”: “socks”,</p>
+<p>&nbsp; &nbsp; &nbsp; “settings”: {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “auth”: “noauth”,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “udp”: true</p>
+<p>&nbsp; &nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; &nbsp; “tag”: “socks5-proxy”</p>
+<p>&nbsp; &nbsp; }</p>
+<p>&nbsp; ],</p>
+<p>&nbsp; “outbounds”: [</p>
+<p>&nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; “protocol”: “vless”,</p>
+<p>&nbsp; &nbsp; &nbsp; “tag”: “to-slow-vps”,</p>
+<p>&nbsp; &nbsp; &nbsp; “server”: “45.192.249.224”,</p>
+<p>&nbsp; &nbsp; &nbsp; “server_port”: 43988,</p>
+<p>&nbsp; &nbsp; &nbsp; “uuid”: “b35fab9a-2afb-2b78-d2e4-417a326fcbcd”,</p>
+<p>&nbsp; &nbsp; &nbsp; “flow”: “xtls-rprx-vision”,</p>
+<p>&nbsp; &nbsp; &nbsp; “tls”: {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “enabled”: true,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “server_name”: “<a href="http://www.yahoo.com/">www.yahoo.com</a>“,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “utls”: {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “enabled”: true,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “fingerprint”: “chrome”</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “reality”: {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “enabled”: true,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “public_key”: “3yJr_f0k9lBbjUJ5aumN4pX2jxu7sjsA9v_CE7___BA”,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; “short_id”: “d882f23e9b491c95”</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp; &nbsp; &nbsp; },<br>      “packet_encoding”: “xudp”<br>    },<br>    {<br>      “protocol”: “freedom”,<br>      “tag”: “direct”<br>    },<br>    {<br>      “protocol”: “blackhole”,<br>      “tag”: “block”<br>    }<br>  ], “routing”: {</p>
+<p>&nbsp; &nbsp; “domainStrategy”: “AsIs”,</p>
+<p>&nbsp; &nbsp; “rules”: [</p>
+<p>&nbsp; &nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “type”: “field”,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “inboundTag”: [“client-entry”],</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “outboundTag”: “to-slow-vps”</p>
+<p>&nbsp; &nbsp; &nbsp; },</p>
+<p>&nbsp; &nbsp; &nbsp; {</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “type”: “field”,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “inboundTag”: [“api”],</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; “outboundTag”: “api”</p>
+<p>&nbsp; &nbsp; &nbsp; }</p>
+<p>&nbsp; &nbsp; ]</p>
+<p>&nbsp; }</p>
+<p>}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一個超輕量的站點管理腳本</title>
+    <url>/2025/07/03/%E4%B8%80%E5%80%8B%E8%B6%85%E8%BC%95%E9%87%8F%E7%9A%84%E7%AB%99%E9%BB%9E%E7%AE%A1%E7%90%86%E8%85%B3%E6%9C%AC/</url>
+    <content><![CDATA[<p>一個超輕量的站點管理腳本，支援 SSL、自動建站、纯本地部署（非Docker）的Nginx + SSL + WordPress 自动化建站，匹配Debian &#x2F; CentOS &#x2F; Alpine 。</p>
+<p>bash &lt;(curl -sL <a href="https://raw.githubusercontent.com/gebu8f8/site_sh/refs/heads/main/install.sh">https://raw.githubusercontent.com/gebu8f8/site_sh/refs/heads/main/install.sh</a>)</p>
+<p>管理命令:site</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一家可能是最便宜的国外代理商</title>
+    <url>/2025/04/06/%E4%B8%80%E5%AE%B6%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E4%BE%BF%E5%AE%9C%E7%9A%84%E5%9B%BD%E5%A4%96%E4%BB%A3%E7%90%86%E5%95%86/</url>
+    <content><![CDATA[<p>&nbsp;一家可能是最便宜的国外代理商</p>
+<p><a href="https://proxy6.net/">https://proxy6.net/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一次性信用卡</title>
+    <url>/2025/09/17/%E4%B8%80%E6%AC%A1%E6%80%A7%E4%BF%A1%E7%94%A8%E5%8D%A1/</url>
+    <content><![CDATA[<p>&nbsp;一次性信用卡</p>
+<p><a href="https://zi0.shop/">https://zi0.shop</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一款自动添加Meta标签与描述的wp插件Slim SEO</title>
+    <url>/2025/06/04/%E4%B8%80%E6%AC%BE%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0meta%E6%A0%87%E7%AD%BE%E4%B8%8E%E6%8F%8F%E8%BF%B0%E7%9A%84wp%E6%8F%92%E4%BB%B6slim-seo/</url>
+    <content><![CDATA[<p>&nbsp;一款自动添加Meta标签与描述的wp插件Slim SEO，可在wp后台下载。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一行代码给wp添加面包屑导航</title>
+    <url>/2025/06/07/%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E7%BB%99wp%E6%B7%BB%E5%8A%A0%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA/</url>
+    <content><![CDATA[<p>一行代码给wp添加面包屑导航</p>
+<p>&nbsp;&lt;a href&#x3D;”&#x2F;“ title&#x3D;”Home”&gt;首页&lt;&#x2F;a&gt; | &lt;?php the_category(“,”); ?&gt; | &lt;?php the_title(); ?&gt;</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一行代码部署极简、开源的网页版 SSH 管理:</title>
+    <url>/2025/07/28/%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E9%83%A8%E7%BD%B2%E6%9E%81%E7%AE%80-%E5%BC%80%E6%BA%90%E7%9A%84%E7%BD%91%E9%A1%B5%E7%89%88-ssh-%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<p>一行代码部署极简、开源的网页版 SSH 管理:</p>
+<p>docker run -d –network host hochenggang&#x2F;managi:0.5.0</p>
+<p>访问 <a href="http://ip:18001/">http://IP:18001</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一行代码重装系统为Debian12</title>
+    <url>/2025/04/25/%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E4%B8%BAdebian12/</url>
+    <content><![CDATA[<p>wget <a href="https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh">https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh</a> &amp;&amp; chmod +x reinstall.sh &amp;&amp; .&#x2F;reinstall.sh debian 12 –password A123@ –ssh-port 22 &amp;&amp; reboot</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键DD WIN11的脚本</title>
+    <url>/2025/04/06/%E4%B8%80%E9%94%AEdd-win11%E7%9A%84%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>一键DD WIN11的脚本</p>
+<p>&nbsp;wget –no-check-certificate -qO InstallNET.sh ‘<a href="https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh%E2%80%99">https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh’</a> &amp;&amp; chmod a+x InstallNET.sh</p>
+<p>&nbsp;</p>
+<p>bash InstallNET.sh -dd “<a href="https://dl.lamp.sh/vhd/en-us_win11_ltsc.xz%E2%80%9D">https://dl.lamp.sh/vhd/en-us_win11_ltsc.xz”</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键docker安卓与Windows</title>
+    <url>/2025/05/30/%E4%B8%80%E9%94%AEdocker%E5%AE%89%E5%8D%93%E4%B8%8Ewindows/</url>
+    <content><![CDATA[<p>&nbsp;一键docker安卓:</p>
+<p>docker run -d -p 6080:6080 \</p>
+<p>&nbsp; -e EMULATOR_DEVICE&#x3D;”Samsung Galaxy S10” \</p>
+<p>&nbsp; -e WEB_VNC&#x3D;true \</p>
+<p>&nbsp; –device &#x2F;dev&#x2F;kvm \</p>
+<p>&nbsp; –name android-container \</p>
+<p>&nbsp; budtmo&#x2F;docker-android:emulator_9.0</p>
+<p>运行后<a href="http://localhost:6080访问">http://localhost:6080访问</a></p>
+<p>项目地址：<a href="https://github.com/budtmo/docker-android">https://github.com/budtmo/docker-android</a></p>
+<p>一键docker windows:</p>
+<p>docker run -dit –rm -p 8006:8006 –device&#x3D;&#x2F;dev&#x2F;kvm –device&#x3D;&#x2F;dev&#x2F;net&#x2F;tun –cap-add NET_ADMIN –stop-timeout 120 dockurr&#x2F;windows</p>
+<p>运行后<a href="http://localhost:8006访问">http://localhost:8006访问</a></p>
+<p>项目地址：<a href="https://github.com/dockur/windows">https://github.com/dockur/windows</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键root加修改密码脚本</title>
+    <url>/2025/12/31/%E4%B8%80%E9%94%AEroot%E5%8A%A0%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>&nbsp;来源:nodeseek</p>
+<p>一键root加改密码脚本，包括适用于甲骨文:</p>
+<p>curl -fsSL -o root.sh “<a href="https://github.com/tonyliuzj/oneclick-root/releases/latest/download/root.sh">https://github.com/tonyliuzj/oneclick-root/releases/latest/download/root.sh</a>“ &amp;&amp; chmod +x root.sh &amp;&amp; sudo .&#x2F;root.sh</p>
+<p>或&nbsp;</p>
+<p>wget -qO root.sh “<a href="https://github.com/tonyliuzj/oneclick-root/releases/latest/download/root.sh">https://github.com/tonyliuzj/oneclick-root/releases/latest/download/root.sh</a>“ &amp;&amp; chmod +x root.sh &amp;&amp; sudo .&#x2F;root.sh</p>
+<p>&nbsp;</p>
+<p>使用 root 权限运行脚本：sudo .&#x2F;root.sh</p>
+<p>脚本将会：</p>
+<p>检测你的包管理器</p>
+<p>更新软件包列表</p>
+<p>安装 sudo 和 openssh-server</p>
+<p>提示设置新的 root 密码</p>
+<p>配置 SSH 允许 root 使用密码认证登录</p>
+<p>重启 SSH 服务</p>
+<p>&nbsp;</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键优化TCP</title>
+    <url>/2025/05/14/%E4%B8%80%E9%94%AE%E4%BC%98%E5%8C%96tcp/</url>
+    <content><![CDATA[<p>&nbsp;wget <a href="https://github.com/BlueSkyWithWhiteClouds/Optimize-Tcp-Cache/releases/download/v1.0/Optimize_Tcp_Cache.sh">https://github.com/BlueSkyWithWhiteClouds/Optimize-Tcp-Cache/releases/download/v1.0/Optimize_Tcp_Cache.sh</a> ; chmod +x Optimize_Tcp_Cache.sh ; .&#x2F;Optimize_Tcp_Cache.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键安装 OpenLiteSpeed与WP</title>
+    <url>/2025/04/06/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85-openlitespeed%E4%B8%8Ewp/</url>
+    <content><![CDATA[<p>&nbsp;一键安装 OpenLiteSpeed与WP</p>
+<p>运行wget <a href="https://raw.githubusercontent.com/litespeedtech/ols1clk/master/ols1clk.sh">https://raw.githubusercontent.com/litespeedtech/ols1clk/master/ols1clk.sh</a> &amp;&amp; bash ols1clk.sh</p>
+<p>或</p>
+<p>bash &lt;( curl -k <a href="https://raw.githubusercontent.com/litespeedtech/ols1clk/master/ols1clk.sh">https://raw.githubusercontent.com/litespeedtech/ols1clk/master/ols1clk.sh</a> )</p>
+<p>安装 WordPress:</p>
+<p>bash &lt;( curl -k <a href="https://raw.githubusercontent.com/litespeedtech/ols1clk/master/ols1clk.sh">https://raw.githubusercontent.com/litespeedtech/ols1clk/master/ols1clk.sh</a> ) -w</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键更换为XanMod内核</title>
+    <url>/2025/05/07/%E4%B8%80%E9%94%AE%E6%9B%B4%E6%8D%A2%E4%B8%BAxanmod%E5%86%85%E6%A0%B8/</url>
+    <content><![CDATA[<p>&nbsp;wget -O&nbsp;tcpx.sh&nbsp;”<a href="https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh">https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh</a>“ &amp;&amp; chmod +x&nbsp;tcpx.sh&nbsp;&amp;&amp; .&#x2F;tcpx.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一键生成链式代理</title>
+    <url>/2025/07/04/%E4%B8%80%E9%94%AE%E7%94%9F%E6%88%90%E9%93%BE%E5%BC%8F%E4%BB%A3%E7%90%86/</url>
+    <content><![CDATA[<p>&nbsp;一键生成链式代理:</p>
+<p><a href="https://sub.091014.xyz/">https://sub.091014.xyz/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>专为alpine定制的Xray一键脚本</title>
+    <url>/2025/07/01/%E4%B8%93%E4%B8%BAalpine%E5%AE%9A%E5%88%B6%E7%9A%84xray%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>专为alpine定制的Xray一键脚本</p>
+<p>wget <a href="https://raw.githubusercontent.com/miku111/XrayOnAlpine/main/install-release.sh">https://raw.githubusercontent.com/miku111/XrayOnAlpine/main/install-release.sh</a> &amp;&amp; bash install-release.sh</p>
+<p>或curl -L -s <a href="https://raw.githubusercontent.com/miku111/XrayOnAlpine/main/install-release.sh">https://raw.githubusercontent.com/miku111/XrayOnAlpine/main/install-release.sh</a> | bash</p>
+<p>启动Xray:&nbsp; &nbsp; sudo service xray start</p>
+<p>项目来源<a href="https://github.com/miku111/XrayOnAlpine">https://github.com/miku111/XrayOnAlpine</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>使用USTC 公共镜像加速器</title>
+    <url>/2025/07/24/%E4%BD%BF%E7%94%A8ustc-%E5%85%AC%E5%85%B1%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E5%99%A8/</url>
+    <content><![CDATA[<p>创建&#x2F;etc&#x2F;docker&#x2F; 目录:</p>
+<p>mkdir -p &#x2F;etc&#x2F;docker&#x2F;</p>
+<p>创建 &#x2F;etc&#x2F;docker&#x2F;daemon.json 文件并粘贴配置：使用 USTC 的加速器地址 <a href="https://docker.mirrors.ustc.edu.cn/">https://docker.mirrors.ustc.edu.cn</a></p>
+<p>输入&nbsp; &nbsp; cat &gt; &#x2F;etc&#x2F;docker&#x2F;daemon.json<br>按下 Enter 键后，光标会停留在新行等待输入，输入:<br>{&nbsp; “registry-mirrors”: [“<a href="https://docker.mirrors.ustc.edu.cn"]}">https://docker.mirrors.ustc.edu.cn&quot;]}</a></p>
+<p>终端的新的一行按下 Ctrl + D ，结束输入并保存文件。<br>验证文件:<br>cat &#x2F;etc&#x2F;docker&#x2F;daemon.json<br>重启 Docker 服务：</p>
+<p>service docker restart</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>信用卡工具</title>
+    <url>/2025/08/07/%E4%BF%A1%E7%94%A8%E5%8D%A1%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>信用卡号生成站：</p>
+<p><a href="https://namso-gen.com/?tab=basic&amp;network=random">https://namso-gen.com/?tab=basic&amp;network=random</a></p>
+<p>信用卡测活站：</p>
+<p><a href="https://seostudio.tools/zh/credit-card-validator">https://seostudio.tools/zh/credit-card-validator</a></p>
+<p>卡BIN查询站:</p>
+<p><a href="https://bincheck.io/zh">https://bincheck.io/zh</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>信用卡验证卡</title>
+    <url>/2025/10/06/%E4%BF%A1%E7%94%A8%E5%8D%A1%E9%AA%8C%E8%AF%81%E5%8D%A1/</url>
+    <content><![CDATA[<p>&nbsp;<a href="http://www.13fei.top/">http://www.13fei.top</a>&nbsp;</p>
+<p><a href="https://shop.misacard.com/?sid=2">https://shop.misacard.com/?sid=2</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>内核转发加nftables 转发</title>
+    <url>/2025/04/14/%E5%86%85%E6%A0%B8%E8%BD%AC%E5%8F%91%E5%8A%A0nftables-%E8%BD%AC%E5%8F%91/</url>
+    <content><![CDATA[<p>&nbsp;sysctl -w net.ipv4.ip_forward&#x3D;1</p>
+<p>echo “net.ipv4.ip_forward&#x3D;1” &gt;&gt; &#x2F;etc&#x2F;sysctl.conf</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>减少ssh自动掉线的频率 </title>
+    <url>/2025/05/16/%E5%87%8F%E5%B0%91ssh%E8%87%AA%E5%8A%A8%E6%8E%89%E7%BA%BF%E7%9A%84%E9%A2%91%E7%8E%87/</url>
+    <content><![CDATA[<p>&nbsp;运行&nbsp;&nbsp;sudo vim &#x2F;etc&#x2F;ssh&#x2F;sshd_config</p>
+<p>添加ClientAliveInterval 60 ClientAliveCountMax 60</p>
+<p>重起sshd服务：服务 sshd 重启</p>
+<p>ClientAliveInterval表示每隔多少秒，服务器端向客户端发送心跳，ClientAliveCountMax表示多少次心跳无响应之后，Client就断开。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>包含安装BBR3的BBR 管理脚本</title>
+    <url>/2025/05/03/%E5%8C%85%E5%90%AB%E5%AE%89%E8%A3%85bbr3%E7%9A%84bbr-%E7%AE%A1%E7%90%86%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>包含安装BBR3的BBR 管理脚本:</p>
+<p>bash &lt;(curl -l -s <a href="https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh">https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh</a>)</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>又一个sing-box全家桶</title>
+    <url>/2025/08/06/%E5%8F%88%E4%B8%80%E4%B8%AAsing-box%E5%85%A8%E5%AE%B6%E6%A1%B6/</url>
+    <content><![CDATA[<p>又一个sing-box全家桶</p>
+<p>Debian&amp;&amp;Ubuntu 使用以下命令安装依赖:</p>
+<p>apt update &amp;&amp; apt -y install curl wget tar socat jq git openssl uuid-runtime build-essential zlib1g-dev libssl-dev libevent-dev dnsutils xxd net-tools cron</p>
+<p>Rocky 使用以下命令安装依赖:</p>
+<p>yum update &amp;&amp; yum -y install curl wget tar socat jq git openssl util-linux gcc-c++ zlib-devel openssl-devel libevent-devel bind-utils vim-common net-tools cronie</p>
+<p>接着运行:</p>
+<p>wget -N -O &#x2F;usr&#x2F;local&#x2F;bin&#x2F;singbox.sh <a href="https://raw.githubusercontent.com/Devmiston/sing-box/refs/heads/main/Install.sh">https://raw.githubusercontent.com/Devmiston/sing-box/refs/heads/main/Install.sh</a> &amp;&amp; chmod +x &#x2F;usr&#x2F;local&#x2F;bin&#x2F;singbox.sh &amp;&amp; ln -sf &#x2F;usr&#x2F;local&#x2F;bin&#x2F;singbox.sh &#x2F;usr&#x2F;local&#x2F;bin&#x2F;singbox &amp;&amp; bash &#x2F;usr&#x2F;local&#x2F;bin&#x2F;singbox.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title> 另一个轻量级 Xray 面板版本</title>
+    <url>/2025/06/27/%E5%8F%A6%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7-xray-%E9%9D%A2%E6%9D%BF%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<p>另一个轻量级 Xray 面板版本</p>
+<p>bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh">https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh</a>)</p>
+<p>项目来源:<a href="https://github.com/FranzKafkaYu/x-ui?tab=readme-ov-file">https://github.com/FranzKafkaYu/x-ui?tab=readme-ov-file</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>可与RN比一比的hudsonvalleyhost</title>
+    <url>/2025/06/04/%E5%8F%AF%E4%B8%8Ern%E6%AF%94%E4%B8%80%E6%AF%94%E7%9A%84hudsonvalleyhost/</url>
+    <content><![CDATA[<p>hudsonvalleyhost与colocrossing是同一家，但colocrossing常常只卖美东鸡，而hudsonvalleyhost卖美西鸡，有512m 8刀年付款，月付款1G折扣后是2刀多，比较实惠，可与RN比一比，缺点是只信用卡，pp付款。</p>
+<p>官网:&nbsp; &nbsp; &nbsp;hudsonvalleyhost.com</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>基于 Alpine 的开源40M的Docker搞定 PHP-FPM 8.4.5 &amp; Nginx 1.26 &amp; Redis7.2.9,</title>
+    <url>/2025/09/15/%E5%9F%BA%E4%BA%8E-alpine-%E7%9A%84%E5%BC%80%E6%BA%9040m%E7%9A%84docker%E6%90%9E%E5%AE%9A-php-fpm-8-4-5-nginx-1-26-redis7-2-9/</url>
+    <content><![CDATA[<p>&nbsp;基于 Alpine 的开源40M的Docker搞定 PHP-FPM 8.4.5 &amp; Nginx 1.26 &amp; Redis7.2.9,</p>
+<p>仓库地址:&nbsp;<a href="https://github.com/vbskycn/php-nginx">https://github.com/vbskycn/php-nginx</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>多协议代理一键脚本 v2.0 - 自定义多协议共存</title>
+    <url>/2025/12/23/%E5%A4%9A%E5%8D%8F%E8%AE%AE%E4%BB%A3%E7%90%86%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC-v2-0-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%A4%9A%E5%8D%8F%E8%AE%AE%E5%85%B1%E5%AD%98/</url>
+    <content><![CDATA[<p>多协议代理一键脚本 v2.0 - 自定义多协议共存</p>
+<p>wget -O vless.sh <a href="https://raw.githubusercontent.com/Chil30/vless-all-in-one/main/vless.sh">https://raw.githubusercontent.com/Chil30/vless-all-in-one/main/vless.sh</a> &amp;&amp; chmod +x vless.sh &amp;&amp; bash vless.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>定期自动清理vps</title>
+    <url>/2025/11/06/%E5%AE%9A%E6%9C%9F%E8%87%AA%E5%8A%A8%E6%B8%85%E7%90%86vps/</url>
+    <content><![CDATA[<p>步骤一:&nbsp; &nbsp;创建脚本文件：</p>
+<p>nano &#x2F;usr&#x2F;local&#x2F;bin&#x2F;clean_vps.sh<br>粘贴以下内容：<br>#!&#x2F;bin&#x2F;bashdocker system prune -af<br>apt clean<br>rm -rf &#x2F;var&#x2F;log&#x2F;<em>.gz &#x2F;var&#x2F;log&#x2F;</em>.1 &#x2F;tmp&#x2F;*保存并退出（按Ctrl+O →回车→ Ctrl+X）赋予执行权限：chmod&nbsp;+x&nbsp;&#x2F;usr&#x2F;local&#x2F;bin&#x2F;clean_vps.sh</p>
+<p>步骤二：添加定时任务<br>运行命令默认设置编辑器为nano：<br>export&nbsp;VISUAL&#x3D;nano<br>运行crontab -e<br>在文件末添加0 3 * * * &#x2F;usr&#x2F;local&#x2F;bin&#x2F;clean_vps.sh &gt;&#x2F;dev&#x2F;null 2&gt;&amp;1<br>意为每天清理</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>宝塔面板使用Nginx进行反代，提升网站访问速度和增强防护</title>
+    <url>/2025/04/08/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E4%BD%BF%E7%94%A8nginx%E8%BF%9B%E8%A1%8C%E5%8F%8D%E4%BB%A3-%E6%8F%90%E5%8D%87%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E5%92%8C%E5%A2%9E%E5%BC%BA%E9%98%B2%E6%8A%A4/</url>
+    <content><![CDATA[<p>&nbsp;假设你有2台VPS，一台为Linode日本，IP为1.1.1.1（国内直接访问速度慢），一台为香港CN2，IP为2.2.2.2（国内访问速度快）</p>
+<p>网站建在Linode日本VPS上，域名为 xxxxx.com。</p>
+<p>在香港CN2 VPS上安装宝塔面板，并安装Nginx。</p>
+<p>2、在你的网站域名解析处，域名A记录设置为香港CN2 VPS的IP：2.2.2.2</p>
+<p>3、在香港CN2 VPS宝塔面板页面设置：</p>
+<p>新建网站 xxxxx.com，SSL证书，反向代理设置为 xxxxx.com，并开启缓存</p>
+<p>修改 &#x2F;etc&#x2F;hosts 文件，在文件末尾添加如下信息：1.1.1.1 xxxxx.com</p>
+<p>1.1.1.1 <a href="http://www.xxxxx.com/">www.xxxxx.com</a></p>
+<p>4、文件缓存位置默认为 &#x2F;www&#x2F;server&#x2F;nginx&#x2F;proxy_cache_dir</p>
+<p>反代配置文件为 &#x2F;www&#x2F;server&#x2F;nginx&#x2F;conf&#x2F;proxy.conf</p>
+<p>回复引用</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>寻找广告联盟的一个不错的平台   odigger</title>
+    <url>/2025/06/24/%E5%AF%BB%E6%89%BE%E5%B9%BF%E5%91%8A%E8%81%94%E7%9B%9F%E7%9A%84%E4%B8%80%E4%B8%AA%E4%B8%8D%E9%94%99%E7%9A%84%E5%B9%B3%E5%8F%B0-odigger/</url>
+    <content><![CDATA[<p>odigger与affplus相似</p>
+<p><a href="https://odigger.com/">https://odigger.com/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title> 开源的免费指纹浏览器Virturl Browser</title>
+    <url>/2025/05/13/%E5%BC%80%E6%BA%90%E7%9A%84%E5%85%8D%E8%B4%B9%E6%8C%87%E7%BA%B9%E6%B5%8F%E8%A7%88%E5%99%A8virturl-browser/</url>
+    <content><![CDATA[<p>开源的免费指纹浏览器Virturl Browser</p>
+<p>项目地址:&nbsp; <a href="https://github.com/Virtual-Browser/VirtualBrowser/releases">https://github.com/Virtual-Browser/VirtualBrowser/releases</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>所谓的3X-UI优化版</title>
+    <url>/2025/05/21/%E6%89%80%E8%B0%93%E7%9A%843x-ui%E4%BC%98%E5%8C%96%E7%89%88/</url>
+    <content><![CDATA[<p>&nbsp;bash &lt;(curl -Ls <a href="https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh">https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh</a>)</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>手动三网优化</title>
+    <url>/2026/01/05/%E6%89%8B%E5%8A%A8%E4%B8%89%E7%BD%91%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<p>&nbsp;手动三网优化</p>
+<p>原文:&nbsp; &nbsp; &nbsp;<a href="https://www.nodeseek.com/post-571254-1">https://www.nodeseek.com/post-571254-1</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>据说可以对Linux优化</title>
+    <url>/2025/05/07/%E6%8D%AE%E8%AF%B4%E5%8F%AF%E4%BB%A5%E5%AF%B9linux%E4%BC%98%E5%8C%96/</url>
+    <content><![CDATA[<p>&nbsp;据说可以对Linux优化，也不知道有没有效:</p>
+<p>wget <a href="https://gist.githubusercontent.com/taurusxin/a9fc3ad039c44ab66fca0320045719b0/raw/3906efed227ee14fc5b4ac8eb4eea8855021ef19/optimize.sh">https://gist.githubusercontent.com/taurusxin/a9fc3ad039c44ab66fca0320045719b0/raw/3906efed227ee14fc5b4ac8eb4eea8855021ef19/optimize.sh</a> &amp;&amp; sudo bashoptimize.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>据说是史上最强DD win脚本</title>
+    <url>/2025/04/18/%E6%8D%AE%E8%AF%B4%E6%98%AF%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%BC%BAdd-win%E8%84%9A%E6%9C%AC/</url>
+    <content><![CDATA[<p>bash &lt;(curl -sSL <a href="https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh">https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh</a>) -windows 10 -lang “cn”</p>
+<p>然后使用Windows徽标+R快捷键打开运行框，输入powershell运行，弹出powershell命名输入窗口，输入以下命令：irm <a href="https://get.activated.win/">https://get.activated.win</a> | iex</p>
+<p>账户：Administrator<br>密码：Teddysun.com</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐一个卖gv账号的站</title>
+    <url>/2025/05/03/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%8D%96gv%E8%B4%A6%E5%8F%B7%E7%9A%84%E7%AB%99/</url>
+    <content><![CDATA[<p>&nbsp;<a href="https://www.gvretailer.com/">https://www.gvretailer.com/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐一个在线backlink检测工具</title>
+    <url>/2025/06/13/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BFbacklink%E6%A3%80%E6%B5%8B%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>推荐一个在线反向链接检测工具，无需注册，还显示是否为DoFollow</p>
+<p>&nbsp;<a href="https://www.backlink-tool.org/">https://www.backlink-tool.org/</a></p>
+<p>再一个推荐，无次数限制</p>
+<p><a href="https://seomato.com/free-backlink-checker-tool">https://seomato.com/free-backlink-checker-tool</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐一个系统与软件合集站</title>
+    <url>/2025/05/30/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%B3%BB%E7%BB%9F%E4%B8%8E%E8%BD%AF%E4%BB%B6%E5%90%88%E9%9B%86%E7%AB%99/</url>
+    <content><![CDATA[<p>&nbsp;推荐一个系统与软件合集站，界面比较好，比较全面</p>
+<p><a href="https://coss.ee/">https://coss.ee/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐一个美国个人信息站</title>
+    <url>/2025/06/05/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%BE%8E%E5%9B%BD%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%AB%99/</url>
+    <content><![CDATA[<p>&nbsp;推荐一个美国个人信息站</p>
+<p><a href="https://www.usaddrgen.com/">https://www.usaddrgen.com/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>推荐几个IP工具</title>
+    <url>/2025/05/06/%E6%8E%A8%E8%8D%90%E5%87%A0%E4%B8%AAip%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>这个据说可以检测是否是住宅IP <a href="https://iphub.info/">https://iphub.info/</a></p>
+<p>这个准一点</p>
+<p><a href="https://ping0.cc/">https://ping0.cc/</a></p>
+<p>这个比较全面，可以检测延迟</p>
+<p><a href="https://iplark.com/">https://iplark.com/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>插件解除wordpress对上传文件大小的限制</title>
+    <url>/2025/05/12/%E6%8F%92%E4%BB%B6%E8%A7%A3%E9%99%A4wordpress%E5%AF%B9%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E7%9A%84%E9%99%90%E5%88%B6/</url>
+    <content><![CDATA[<p>wordpress上传文件，超过了限制，会出现“上传的文件超出了 php.ini 中的 upload_max_filesize 指令。”</p>
+<p>可以big-file-uploads解除限制，下载地址:</p>
+<p><a href="https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.2.1.6.zip">https://downloads.wordpress.org/plugin/tuxedo-big-file-uploads.2.1.6.zip</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>搭建云手机</title>
+    <url>/2025/04/13/%E6%90%AD%E5%BB%BA%E4%BA%91%E6%89%8B%E6%9C%BA/</url>
+    <content><![CDATA[<p>安装 docker</p>
+<p>安装依赖:</p>
+<p>sudo apt install linux-modules-extra-<code>uname -r</code></p>
+<p>sudo modprobe binder_linux devices&#x3D;”binder,hwbinder,vndbinder”</p>
+<p>sudo modprobe ashmem_lin</p>
+<p>安装 adb</p>
+<p>sudo apt install adb</p>
+<p>安装 scrcpysnap方式安装</p>
+<p>snap install scrcpy</p>
+<p>apt方式安装</p>
+<p>apt install scrcpy</p>
+<p>运行 docker 安装 redroid</p>
+<p>docker run -itd –rm –privileged &amp;nbsp;–pull always \</p>
+<p> -v ~&#x2F;data:&#x2F;data \ -p 5555:5555 \ redroid&#x2F;redroid:11.0.0-latest&nbsp;进入容器，一些轻量级的 Linux 发行版或者为特定目的构建的容器可能使用其他的 shell，例如 sh 或 ash，可以尝试使用 &#x2F;bin&#x2F;sh 来进入容器的 shell：</p>
+<p>docker exec -it f75cddc76d0c &#x2F;bin&#x2F;sh</p>
+<p>adb 连接:如果是远程机器，localhost改为对应的ipadb connect localhost:5555另一种方式在vps安装云手机:</p>
+<p>首先检查vps是否支持:sudo apt install cpu-checkerkvm-ok如果显示INFO: &#x2F;dev&#x2F;kvm existsKVM acceleration can be used则表示支持接着安装dockercurl -fsSL <a href="https://get.docker.com/">https://get.docker.com</a> | sudo sh然后docker run -d -p 29898:6080 -e EMULATOR_DEVICE&#x3D;”Samsung Galaxy S10” -e WEB_VNC&#x3D;true -e VNC_PASSWORD&#x3D;yourpassword –device &#x2F;dev&#x2F;kvm –name android-container budtmo&#x2F;docker-android:emulator_11.0其中29898可以改成自己想要的端口yourpassword改成自己想要的密码，输入IP：端口 即可访问</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>检查网站的模板</title>
+    <url>/2025/06/19/%E6%A3%80%E6%9F%A5%E7%BD%91%E7%AB%99%E7%9A%84%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<p>检查网站的模板</p>
+<p><a href="https://whatcms.org/">https://whatcms.org/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>每10分钟更新的麒麟优选IP</title>
+    <url>/2025/04/12/%E6%AF%8F10%E5%88%86%E9%92%9F%E6%9B%B4%E6%96%B0%E7%9A%84%E9%BA%92%E9%BA%9F%E4%BC%98%E9%80%89ip/</url>
+    <content><![CDATA[<p>&nbsp;每10分钟更新的麒麟优选IP:</p>
+<p><a href="https://api.uouin.com/cloudflare.html">https://api.uouin.com/cloudflare.html</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>甲骨文一键切换为root</title>
+    <url>/2025/04/25/%E7%94%B2%E9%AA%A8%E6%96%87%E4%B8%80%E9%94%AE%E5%88%87%E6%8D%A2%E4%B8%BAroot/</url>
+    <content><![CDATA[<p>curl -sS -o root.sh&nbsp;<a href="https://raw.githubusercontent.com/passeway/root/main/root.sh">https://raw.githubusercontent.com/passeway/root/main/root.sh</a>&nbsp;&amp;&amp; chmod +x root.sh &amp;&amp; .&#x2F;root.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>甲骨文与谷歌云等默认密钥型VPS一键获取root权限</title>
+    <url>/2025/04/06/%E7%94%B2%E9%AA%A8%E6%96%87%E4%B8%8E%E8%B0%B7%E6%AD%8C%E4%BA%91%E7%AD%89%E9%BB%98%E8%AE%A4%E5%AF%86%E9%92%A5%E5%9E%8Bvps%E4%B8%80%E9%94%AE%E8%8E%B7%E5%8F%96root%E6%9D%83%E9%99%90/</url>
+    <content><![CDATA[<p>&nbsp;甲骨文与谷歌云等默认密钥型VPS一键获取root权限</p>
+<p>bash &lt;(curl -sSL <a href="https://raw.githubusercontent.com/panhuanghe/vpsroot/main/root.sh">https://raw.githubusercontent.com/panhuanghe/vpsroot/main/root.sh</a>)</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>破解手机上的SSH 客户端复制和粘贴复杂文本出现的各种问题</title>
+    <url>/2025/06/17/%E7%A0%B4%E8%A7%A3%E6%89%8B%E6%9C%BA%E4%B8%8A%E7%9A%84ssh-%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%A4%8D%E5%88%B6%E5%92%8C%E7%B2%98%E8%B4%B4%E5%A4%8D%E6%9D%82%E6%96%87%E6%9C%AC%E5%87%BA%E7%8E%B0%E7%9A%84%E5%90%84%E7%A7%8D%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>&nbsp;手机上的 SSH 客户端（如 Termius、JuiceSSH、ConnectBot 等）在复制和粘贴复杂文本时，确实会经常出现各种格式问题，比如：</p>
+<p>自动添加#符号：某些客户端在粘贴时可能会误判行首，或与行号功能混淆。<br>截断内容：粘贴不完整。<br>引入非标准字符：例如全角空格、奇怪的换行符等。<br>粘贴速度或中心问题：导致数据丢失。可以试一下 “Here Document”（此处文档）的方法:<br>sudo cat &lt;&lt; ‘END_OF_TEXT_BLOCK’ &gt; &#x2F;path&#x2F;to&#x2F;your&#x2F;desired_file.txt<br>中间是配置文件<br>END_OF_TEXT_BLOCK</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>线路检查工具</title>
+    <url>/2025/08/09/%E7%BA%BF%E8%B7%AF%E6%A3%80%E6%9F%A5%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>线路检查工具</p>
+<p>&nbsp;curl <a href="https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh">https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh</a> -sSf | sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>缩短、隐藏和重定向广告联盟链接的两个工具</title>
+    <url>/2025/06/17/%E7%BC%A9%E7%9F%AD-%E9%9A%90%E8%97%8F%E5%92%8C%E9%87%8D%E5%AE%9A%E5%90%91%E5%B9%BF%E5%91%8A%E8%81%94%E7%9B%9F%E9%93%BE%E6%8E%A5%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<p>缩短、隐藏和重定向广告联盟链接的两个工具:</p>
+<p><a href="https://www.shortywp.com/">https://www.shortywp.com/</a></p>
+<p><a href="https://href.li/">https://href.li/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>老王的Linux工具箱</title>
+    <url>/2025/07/25/%E8%80%81%E7%8E%8B%E7%9A%84linux%E5%B7%A5%E5%85%B7%E7%AE%B1/</url>
+    <content><![CDATA[<p>老王的Linux工具箱</p>
+<p>wget -qO ssh_tool.sh <a href="https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh">https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh</a> &amp;&amp; chmod +x ssh_tool.sh &amp;&amp; .&#x2F;ssh_tool.sh</p>
+<p>或</p>
+<p>curl -fsSL <a href="https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh">https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh</a> -o ssh_tool.sh &amp;&amp; chmod +x ssh_tool.sh &amp;&amp; .&#x2F;ssh_tool.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>订阅链接转化</title>
+    <url>/2025/04/12/%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5%E8%BD%AC%E5%8C%96/</url>
+    <content><![CDATA[<p>&nbsp;<a href="https://suburl.v1.mk/">https://suburl.v1.mk/</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>让termux反向隧道不中断</title>
+    <url>/2025/07/18/%E8%AE%A9termux%E5%8F%8D%E5%90%91%E9%9A%A7%E9%81%93%E4%B8%8D%E4%B8%AD%E6%96%AD/</url>
+    <content><![CDATA[<p>termux设置了反向隧道，让Windows连接termux，但有时隧道会正常，可以termux编辑<del>&#x2F;.bashrc或</del>&#x2F;.profile文件阻止其中断，比如编辑~&#x2F;.bashrc文件</p>
+<p>nano&nbsp; ~&#x2F;.bashrc 加入:</p>
+<p>pgrep autossh &gt; &#x2F;dev&#x2F;null || autossh -f -M 0 -N -R 2222:localhost:8022 <a href="mailto:&#x61;&#100;&#109;&#105;&#x6e;&#x69;&#115;&#x74;&#114;&#97;&#116;&#x6f;&#x72;&#x40;&#x31;&#x37;&#x32;&#46;&#50;&#53;&#x32;&#46;&#55;&#49;&#x2e;&#x31;&#x38;&#57;">administrator@172.252.71.189</a></p>
+<p>这里以IP为172.252.71.189的电脑为例，当然也可以设置termux开机自动启动sshd，在<del>&#x2F;.bashrc或</del>&#x2F;.profile文件里加入：<br>pgrep sshd &gt; &#x2F;dev&#x2F;null || sshd<br>然后在termux输入source ~&#x2F;.bashrc。<br>也可以设置电脑免密码连接termux，既设置遥控器</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>超多dd教程</title>
+    <url>/2025/05/11/%E8%B6%85%E5%A4%9Add%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>&nbsp;<a href="https://gist.github.com/barkpixels/da77865ac6f59b24f567912939ab82b0">https://gist.github.com/barkpixels/da77865ac6f59b24f567912939ab82b0</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>超精简的Debian11</title>
+    <url>/2025/07/04/%E8%B6%85%E7%B2%BE%E7%AE%80%E7%9A%84debian11/</url>
+    <content><![CDATA[<p>安装超精简只有491m的Debian11</p>
+<p>curl -Ls <a href="https://raw.githubusercontent.com/jiaoben123/vps-lite/main/clean.sh">https://raw.githubusercontent.com/jiaoben123/vps-lite/main/clean.sh</a> -o clean.sh &amp;&amp; chmod +x clean.sh &amp;&amp; .&#x2F;clean.sh</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>避免或减少跳验证码</title>
+    <url>/2025/04/16/%E9%81%BF%E5%85%8D%E6%88%96%E5%87%8F%E5%B0%91%E8%B7%B3%E9%AA%8C%E8%AF%81%E7%A0%81/</url>
+    <content><![CDATA[<p>&nbsp;安装warp:</p>
+<p>bash &lt;(curl -fsSL git.io&#x2F;warp.sh) 6</p>
+<p>x-ui面板配置:</p>
+<p>将 “outbounds” 的 “protocol”: “freedom” 下面的 “settings”: {} 删除替换为</p>
+<p>“settings”: {         “domainStrategy”: “UseIPv6”                },      “tag”: “IP-V6”</p>
+<p>在“routing”的 “rules”:  下面添加如下代码:</p>
+<p>{</p>
+<pre><code>    &quot;type&quot;:&quot;field&quot;,
+
+    &quot;domain&quot;: [
+
+      &quot;geosite:netflix&quot;,
+
+      &quot;geosite:google&quot;,
+
+      &quot;geosite:openai&quot;
+
+    ],
+
+    &quot;inboundTag&quot;:  [
+
+      &quot;all-in&quot;
+
+    ],
+
+    &quot;outboundTag&quot;: &quot;IP-V6&quot;
+
+  },
+</code></pre>
+<p>保存配置&nbsp; 重启面板。</p>
+<p>文章来源:<a href="https://medium.com/@wumeng9028/%E8%BD%AC-virmach-racknerd%E7%AD%89colocrossing%E6%9C%BA%E6%88%BFwarp%E8%A7%A3%E5%86%B3google%E9%AA%8C%E8%AF%81%E7%A0%81%E5%B9%B6%E8%A7%A3%E9%94%81netflix-openai-fc1d54514df1">https://medium.com/@wumeng9028/%E8%BD%AC-virmach-racknerd%E7%AD%89colocrossing%E6%9C%BA%E6%88%BFwarp%E8%A7%A3%E5%86%B3google%E9%AA%8C%E8%AF%81%E7%A0%81%E5%B9%B6%E8%A7%A3%E9%94%81netflix-openai-fc1d54514df1</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>非解锁GPT地区如何解锁GPT？</title>
+    <url>/2025/05/22/%E9%9D%9E%E8%A7%A3%E9%94%81gpt%E5%9C%B0%E5%8C%BA%E5%A6%82%E4%BD%95%E8%A7%A3%E9%94%81gpt/</url>
+    <content><![CDATA[<p>文章来源&nbsp; nodeseek的keo&nbsp;</p>
+<p><a href="https://www.nodeseek.com/post-129910-1">https://www.nodeseek.com/post-129910-1</a>&nbsp;</p>
+<p>换行然后X-ui分流</p>
+<h1 id="基础准备"><a href="#基础准备" class="headerlink" title="基础准备"></a>基础准备</h1><p>sudo apt update<br>sudo apt install gnupg curl</p>
+<h1 id="为库安装GPG-Key"><a href="#为库安装GPG-Key" class="headerlink" title="为库安装GPG Key"></a>为库安装GPG Key</h1><p>curl <a href="https://pkg.cloudflareclient.com/pubkey.gpg">https://pkg.cloudflareclient.com/pubkey.gpg</a> | sudo gpg –yes –dearmor –output &#x2F;usr&#x2F;share&#x2F;keyrings&#x2F;cloudflare-warp-archive-keyring.gpg</p>
+<h1 id="添加源到库"><a href="#添加源到库" class="headerlink" title="添加源到库"></a>添加源到库</h1><p>echo “deb [arch&#x3D;amd64 signed-by&#x3D;&#x2F;usr&#x2F;share&#x2F;keyrings&#x2F;cloudflare-warp-archive-keyring.gpg] <a href="https://pkg.cloudflareclient.com/">https://pkg.cloudflareclient.com/</a> $(lsb_release -cs) main” | sudo tee &#x2F;etc&#x2F;apt&#x2F;sources.list.d&#x2F;cloudflare-client.list</p>
+<h1 id="update-APT"><a href="#update-APT" class="headerlink" title="update APT"></a>update APT</h1><p>sudo apt update #如果不是管理员账号下，使用这个</p>
+<h1 id="安装Warp"><a href="#安装Warp" class="headerlink" title="安装Warp"></a>安装Warp</h1><p>apt install cloudflare-warp</p>
+<h1 id="注册Warp-运行命令给设备注册"><a href="#注册Warp-运行命令给设备注册" class="headerlink" title="注册Warp 运行命令给设备注册"></a>注册Warp 运行命令给设备注册</h1><p>warp-cli registration new</p>
+<h1 id="打开代理模式"><a href="#打开代理模式" class="headerlink" title="打开代理模式"></a>打开代理模式</h1><p>warp-cli mode proxy</p>
+<h1 id="连接Warp"><a href="#连接Warp" class="headerlink" title="连接Warp"></a>连接Warp</h1><p>warp-cli connect<br>使用此X-ui配置，在里面填写您要访问的网址</p>
+<p>{<br>  “api”: {<br>    “services”: [<br>      “HandlerService”,<br>      “LoggerService”,<br>      “StatsService”<br>    ],<br>    “tag”: “api”<br>  },<br>  “inbounds”: [<br>    {<br>      “listen”: “127.0.0.1”,<br>      “port”: 62789,<br>      “protocol”: “dokodemo-door”,<br>      “settings”: {<br>        “address”: “127.0.0.1”<br>      },<br>      “tag”: “api”<br>    }<br>  ],<br>  “outbounds”: [<br>    {<br>      “protocol”: “freedom”,<br>      “settings”: {}<br>    },<br>    {<br>      “tag”: “warp_proxy”,<br>      “protocol”: “socks”,<br>      “settings”: {<br>        “servers”: [<br>          {<br>            “address”: “127.0.0.1”,<br>            “port”: 40000<br>          }<br>        ]<br>      }<br>    },<br>    {<br>      “protocol”: “blackhole”,<br>      “settings”: {},<br>      “tag”: “blocked”<br>    }<br>  ],<br>  “policy”: {<br>    “system”: {<br>      “statsInboundDownlink”: true,<br>      “statsInboundUplink”: true<br>    }<br>  },<br>  “routing”: {<br>    “rules”: [<br>      {<br>        “type”: “field”,<br>        “outboundTag”: “warp_proxy”,<br>        “domain”: [<br>          “pornhub.com”, ###这里填你需要访问的域名<br>          “ip138.com”<br>        ]<br>      },<br>      {<br>        “inboundTag”: [<br>          “api”<br>        ],<br>        “outboundTag”: “api”,<br>        “type”: “field”<br>      },<br>      {<br>        “ip”: [<br>          “geoip:private”<br>        ],<br>        “outboundTag”: “blocked”,<br>        “type”: “field”<br>      },<br>      {<br>        “outboundTag”: “blocked”,<br>        “protocol”: [<br>          “bittorrent”<br>        ],<br>        “type”: “field”<br>      }<br>    ]<br>  },<br>  “stats”: {}<br>}</p>
+]]></content>
+  </entry>
+</search>
